@@ -457,7 +457,7 @@ n=n==null?null:A.aDz(n)
 s=A.bK(self.document,"script")
 if(n!=null)s.nonce=n
 s.src=A.b3f(a)
-n=new A.ax($.aH,t.tq)
+n=new A.ax($.aI,t.tq)
 r=new A.bA(n,t.VY)
 q=A.aS("loadCallback")
 p=A.aS("errorCallback")
@@ -2032,7 +2032,7 @@ r=new A.Nx(new A.QD(new A.AO(s),!1,!1,B.W,q,r,"/",null),A.b([$.cF()],t.LE),A.aIH
 r.a8j()
 return r},
 aIS(a){if(a==null)return null
-return new A.a9J($.aH,a)},
+return new A.a9J($.aI,a)},
 aDd(){var s,r,q,p,o,n=A.aUO(self.window.navigator)
 if(n==null||n.length===0)return B.px
 s=A.b([],t.ss)
@@ -2045,12 +2045,12 @@ switch(s.a){case"setDevicePixelRatio":$.cF().d=r
 $.bd().f.$0()
 return!0}return!1},
 nG(a,b){if(a==null)return
-if(b===$.aH)a.$0()
+if(b===$.aI)a.$0()
 else b.y4(a)},
 pR(a,b,c){if(a==null)return
-if(b===$.aH)a.$1(c)
+if(b===$.aI)a.$1(c)
 else b.y5(a,c)},
-b4a(a,b,c,d){if(b===$.aH)a.$2(c,d)
+b4a(a,b,c,d){if(b===$.aI)a.$2(c,d)
 else b.y4(new A.aBD(a,c,d))},
 b3z(){var s,r,q,p=self.document.documentElement
 p.toString
@@ -6603,7 +6603,7 @@ return s},
 b_w(a,b){var s=new A.Ja(!1)
 s.a8C(a,b)
 return s},
-L(a){return new A.UZ(new A.ax($.aH,a.i("ax<0>")),a.i("UZ<0>"))},
+L(a){return new A.UZ(new A.ax($.aI,a.i("ax<0>")),a.i("UZ<0>"))},
 K(a,b){a.$2(0,null)
 b.b=!0
 return b.a},
@@ -6614,40 +6614,40 @@ b06(a,b){var s,r,q=new A.azT(b),p=new A.azU(b)
 if(a instanceof A.ax)a.Vu(q,p,t.z)
 else{s=t.z
 if(t.L0.b(a))a.hQ(0,q,p,s)
-else{r=new A.ax($.aH,t.LR)
+else{r=new A.ax($.aI,t.LR)
 r.a=8
 r.c=a
 r.Vu(q,p,s)}}},
 M(a){var s=function(b,c){return function(d,e){while(true){try{b(d,e)
 break}catch(r){e=r
 d=c}}}}(a,1)
-return $.aH.DL(new A.aAN(s))},
+return $.aI.DL(new A.aAN(s))},
 aMq(a,b,c){return 0},
 a4Y(a,b){var s=A.hb(a,"error",t.K)
 return new A.L9(s,b==null?A.La(a):b)},
 La(a){var s
 if(t.Lt.b(a)){s=a.guC()
 if(s!=null)return s}return B.E0},
-aJ7(a,b){var s=new A.ax($.aH,b.i("ax<0>"))
+aJ7(a,b){var s=new A.ax($.aI,b.i("ax<0>"))
 A.co(B.H,new A.aba(s,a))
 return s},
-d5(a,b){var s=a==null?b.a(a):a,r=new A.ax($.aH,b.i("ax<0>"))
+d5(a,b){var s=a==null?b.a(a):a,r=new A.ax($.aI,b.i("ax<0>"))
 r.n7(s)
 return r},
 Bd(a,b,c){var s
 A.hb(a,"error",t.K)
 if(b==null)b=A.La(a)
-s=new A.ax($.aH,c.i("ax<0>"))
+s=new A.ax($.aI,c.i("ax<0>"))
 s.zj(a,b)
 return s},
 vb(a,b,c){var s,r
 if(b==null)s=!c.b(null)
 else s=!1
 if(s)throw A.d(A.iF(null,"computation","The type parameter is not nullable"))
-r=new A.ax($.aH,c.i("ax<0>"))
+r=new A.ax($.aI,c.i("ax<0>"))
 A.co(a,new A.ab9(b,r,c))
 return r},
-qV(a,b){var s,r,q,p,o,n,m,l,k,j,i={},h=null,g=!1,f=new A.ax($.aH,b.i("ax<S<0>>"))
+qV(a,b){var s,r,q,p,o,n,m,l,k,j,i={},h=null,g=!1,f=new A.ax($.aI,b.i("ax<S<0>>"))
 i.a=null
 i.b=0
 s=A.aS("error")
@@ -6664,15 +6664,15 @@ if(i.b===0||g)return A.Bd(n,m,b.i("S<0>"))
 else{s.b=n
 r.b=m}}return f},
 aVx(a,b,c,d){var s,r,q=new A.ab8(d,null,b,c)
-if(a instanceof A.ax){s=$.aH
+if(a instanceof A.ax){s=$.aI
 r=new A.ax(s,c.i("ax<0>"))
 if(s!==B.aQ)q=s.DL(q)
 a.qN(new A.jl(r,2,null,q,a.$ti.i("@<1>").al(c).i("jl<1,2>")))
 return r}return a.hQ(0,new A.ab7(c),q,c)},
-aHO(a){return new A.bA(new A.ax($.aH,a.i("ax<0>")),a.i("bA<0>"))},
+aHO(a){return new A.bA(new A.ax($.aI,a.i("ax<0>")),a.i("bA<0>"))},
 aF4(a,b,c){if(c==null)c=A.La(b)
 a.hW(b,c)},
-fJ(a,b){var s=new A.ax($.aH,b.i("ax<0>"))
+fJ(a,b){var s=new A.ax($.aI,b.i("ax<0>"))
 s.a=8
 s.c=a
 return s},
@@ -6712,13 +6712,13 @@ if(k){j=e.b.b
 if(o){q=q.b===j
 q=!(q||q)}else q=!1
 if(q){A.yU(l.a,l.b)
-return}i=$.aH
-if(i!==j)$.aH=j
+return}i=$.aI
+if(i!==j)$.aI=j
 else i=null
 e=e.c
 if((e&15)===8)new A.asI(r,f,o).$0()
 else if(p){if((e&1)!==0)new A.asH(r,l).$0()}else if((e&2)!==0)new A.asG(f,r).$0()
-if(i!=null)$.aH=i
+if(i!=null)$.aI=i
 e=r.c
 if(s.b(e)){q=r.a.$ti
 q=q.i("aB<2>").b(e)||!q.y[1].b(e)}else q=!1
@@ -6767,7 +6767,7 @@ $.yT=$.Ke=s}else{q=r.b
 s.b=q
 $.Ke=r.b=s
 if(q==null)$.Kd=s}},
-fl(a){var s,r=null,q=$.aH
+fl(a){var s,r=null,q=$.aI
 if(B.aQ===q){A.u0(r,r,B.aQ,a)
 return}s=!1
 if(s){A.u0(r,r,q,a)
@@ -6787,7 +6787,7 @@ if(a==null)return
 try{a.$0()}catch(q){s=A.at(q)
 r=A.bg(q)
 A.yU(s,r)}},
-aZP(a,b,c,d,e,f){var s=$.aH,r=e?1:0,q=A.apt(s,b),p=A.aEB(s,c),o=d==null?A.aO9():d
+aZP(a,b,c,d,e,f){var s=$.aI,r=e?1:0,q=A.apt(s,b),p=A.aEB(s,c),o=d==null?A.aO9():d
 return new A.pr(a,q,p,o,s,r,f.i("pr<0>"))},
 apt(a,b){return b==null?A.b2y():b},
 aEB(a,b){if(b==null)b=A.b2z()
@@ -6797,38 +6797,38 @@ throw A.d(A.c8("handleError callback must take either an Object (the error), or 
 b1E(a){},
 b1G(a,b){A.yU(a,b)},
 b1F(){},
-aM_(a,b){var s=new A.Gq($.aH,b.i("Gq<0>"))
+aM_(a,b){var s=new A.Gq($.aI,b.i("Gq<0>"))
 A.fl(s.gTo())
 if(a!=null)s.c=a
 return s},
 b0h(a,b,c){var s=a.b2(0),r=$.z5()
 if(s!==r)s.j_(new A.azX(b,c))
 else b.na(c)},
-co(a,b){var s=$.aH
+co(a,b){var s=$.aI
 if(s===B.aQ)return A.aEp(a,b)
 return A.aEp(a,s.Jt(b))},
-aLm(a,b){var s=$.aH
+aLm(a,b){var s=$.aI
 if(s===B.aQ)return A.aLn(a,b)
 return A.aLn(a,s.Xd(b,t.qe))},
 yU(a,b){A.b27(new A.aAE(a,b))},
-aNO(a,b,c,d){var s,r=$.aH
+aNO(a,b,c,d){var s,r=$.aI
 if(r===c)return d.$0()
-$.aH=c
+$.aI=c
 s=r
 try{r=d.$0()
-return r}finally{$.aH=s}},
-aNQ(a,b,c,d,e){var s,r=$.aH
+return r}finally{$.aI=s}},
+aNQ(a,b,c,d,e){var s,r=$.aI
 if(r===c)return d.$1(e)
-$.aH=c
+$.aI=c
 s=r
 try{r=d.$1(e)
-return r}finally{$.aH=s}},
-aNP(a,b,c,d,e,f){var s,r=$.aH
+return r}finally{$.aI=s}},
+aNP(a,b,c,d,e,f){var s,r=$.aI
 if(r===c)return d.$2(e,f)
-$.aH=c
+$.aI=c
 s=r
 try{r=d.$2(e,f)
-return r}finally{$.aH=s}},
+return r}finally{$.aI=s}},
 u0(a,b,c,d){if(B.aQ!==c)d=c.Jt(d)
 A.aNV(d)},
 aoO:function aoO(a){this.a=a},
@@ -8815,7 +8815,7 @@ A.hb(a,"method",s)
 if(!B.c.cS(a,"ext."))throw A.d(A.iF(a,"method","Must begin with ext."))
 if($.aNb.h(0,a)!=null)throw A.d(A.c8("Extension already registered: "+a,null))
 A.hb(b,"handler",t.xd)
-$.aNb.p(0,a,$.aH.apb(b,t.Z9,s,t.GU))},
+$.aNb.p(0,a,$.aI.apb(b,t.Z9,s,t.GU))},
 aZf(a){var s,r
 A.bX(a,"name")
 if(!(typeof performance!=="undefined"&&typeof performance.measure!=="undefined")){$.ams.push(null)
@@ -8842,7 +8842,7 @@ s.II()
 return s},
 b0y(a){if(t.VF.b(a))return a
 return new A.lt([],[]).nF(a,!0)},
-aO6(a,b){var s=$.aH
+aO6(a,b){var s=$.aI
 if(s===B.aQ)return a
 return s.Xd(a,b)},
 b1:function b1(){},
@@ -9045,7 +9045,7 @@ this.b=b},
 lt:function lt(a,b){this.a=a
 this.b=b
 this.c=!1},
-aF3(a,b){var s=new A.ax($.aH,b.i("ax<0>")),r=new A.IX(s,b.i("IX<0>")),q=t.I3
+aF3(a,b){var s=new A.ax($.aI,b.i("ax<0>")),r=new A.IX(s,b.i("IX<0>")),q=t.I3
 A.lw(a,"success",new A.aA0(a,r),!1,q)
 A.lw(a,"error",r.gXC(),!1,q)
 return s},
@@ -9138,7 +9138,7 @@ r=a.bind.apply(a,s)
 String(r)
 return new r()},
 aMY(a){return new a()},
-hZ(a,b){var s=new A.ax($.aH,b.i("ax<0>")),r=new A.bA(s,b.i("bA<0>"))
+hZ(a,b){var s=new A.ax($.aI,b.i("ax<0>")),r=new A.bA(s,b.i("bA<0>"))
 a.then(A.nE(new A.aBS(r),1),A.nE(new A.aBT(r),1))
 return s},
 aNA(a){return a==null||typeof a==="boolean"||typeof a==="number"||typeof a==="string"||a instanceof Int8Array||a instanceof Uint8Array||a instanceof Uint8ClampedArray||a instanceof Int16Array||a instanceof Uint16Array||a instanceof Int32Array||a instanceof Uint32Array||a instanceof Float32Array||a instanceof Float64Array||a instanceof ArrayBuffer||a instanceof DataView},
@@ -13412,11 +13412,11 @@ return r.c1(A.aUp(a,B.Y,c,d,e,f,g,s,B.mg,!0,i))},
 aUp(a,b,c,d,e,f,g,h,i,j,a0){var s,r,q,p,o,n,m,l,k=null
 A.dM(f,B.am,t.A).toString
 s=A.b([],t.Zt)
-r=$.aH
+r=$.aI
 q=A.rP(B.cB)
 p=A.b([],t.wi)
 o=$.aD()
-n=$.aH
+n=$.aI
 m=a0.i("ax<0?>")
 l=a0.i("bA<0?>")
 return new A.Ap(new A.a7R(e,h,!0),c,"Dismiss",b,B.eJ,A.b3r(),a,k,i,s,A.b6(t.kj),new A.bU(k,a0.i("bU<ly<0>>")),new A.bU(k,t.B),new A.w3(),k,0,new A.bA(new A.ax(r,a0.i("ax<0?>")),a0.i("bA<0?>")),q,p,B.fr,new A.bW(k,o,t.XR),new A.bA(new A.ax(n,m),l),new A.bA(new A.ax(n,m),l),a0.i("Ap<0>"))},
@@ -15390,7 +15390,7 @@ aWG(a,b,c){if(a===b)return a
 return new A.CE(A.kC(a.a,b.a,c))},
 CE:function CE(a){this.a=a},
 Z6:function Z6(){},
-cx(a,b,c){var s=null,r=A.b([],t.Zt),q=$.aH,p=A.rP(B.cB),o=A.b([],t.wi),n=$.aD(),m=$.aH,l=c.i("ax<0?>"),k=c.i("bA<0?>"),j=b==null?B.fr:b
+cx(a,b,c){var s=null,r=A.b([],t.Zt),q=$.aI,p=A.rP(B.cB),o=A.b([],t.wi),n=$.aD(),m=$.aI,l=c.i("ax<0?>"),k=c.i("bA<0?>"),j=b==null?B.fr:b
 return new A.ie(a,!1,!0,!1,s,s,r,A.b6(t.kj),new A.bU(s,c.i("bU<ly<0>>")),new A.bU(s,t.B),new A.w3(),s,0,new A.bA(new A.ax(q,c.i("ax<0?>")),c.i("bA<0?>")),p,o,j,new A.bW(s,n,t.XR),new A.bA(new A.ax(m,l),k),new A.bA(new A.ax(m,l),k),c.i("ie<0>"))},
 ie:function ie(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1){var _=this
 _.bQ=a
@@ -15534,11 +15534,11 @@ q.toString
 q=A.Ou(d,q)
 p=A.b2(J.bj(a0),g,!1,t.tW)
 o=A.b([],t.Zt)
-n=$.aH
+n=$.aI
 m=A.rP(B.cB)
 l=A.b([],t.wi)
 k=$.aD()
-j=$.aH
+j=$.aI
 i=a7.i("ax<0?>")
 h=a7.i("bA<0?>")
 return r.c1(new A.HO(a2,a0,p,f,e,a5,a3,s,a4,b,q,c,a,a1,"Dismiss menu",g,B.mg,o,A.b6(t.kj),new A.bU(g,a7.i("bU<ly<0>>")),new A.bU(g,t.B),new A.w3(),g,0,new A.bA(new A.ax(n,a7.i("ax<0?>")),a7.i("bA<0?>")),m,l,B.fr,new A.bW(g,k,t.XR),new A.bA(new A.ax(j,i),h),new A.bA(new A.ax(j,i),h),a7.i("HO<0>")))},
@@ -21686,7 +21686,7 @@ this.b=b},
 aiO:function aiO(a){this.a=a},
 aiJ:function aiJ(a){this.a=a},
 aiL:function aiL(a){this.a=a},
-aEn(){var s=new A.to(new A.bA(new A.ax($.aH,t.D4),t.gR))
+aEn(){var s=new A.to(new A.bA(new A.ax($.aI,t.D4),t.gR))
 s.Vw()
 return s},
 xh:function xh(a,b){var _=this
@@ -22829,7 +22829,7 @@ break
 default:r=null
 s=null}return A.agp(a,b,d,null,r,s,g,h)},
 bi(a,b,c,d){return new A.RH(B.aa,c,d,b,null,B.ce,null,a,null)},
-aI(a,b,c,d){return new A.Mj(B.N,c,d,b,null,B.ce,null,a,null)},
+aH(a,b,c,d){return new A.Mj(B.N,c,d,b,null,B.ce,null,a,null)},
 aF(a,b){return new A.AV(b,B.kq,a,null)},
 aLK(a,b,c,d,e){return new A.Us(b,e,c,d,a,null)},
 aKD(a,b,c,d,e,f,g,h,i,j,k,l,m){return new A.RB(h,i,j,f,c,A.aKE(l,1),b,a,g,m,k,e,d,A.aLG(h,A.aKE(l,1)),null)},
@@ -23209,7 +23209,7 @@ _.db=!1
 _.dx=null
 _.dy=!0
 _.fr=null},
-aLH(){var s=null,r=A.b([],t.GA),q=$.aH,p=$.aD(),o=A.b([],t.Jh),n=A.b2(7,s,!1,t.JI),m=t.S,l=t.j1
+aLH(){var s=null,r=A.b([],t.GA),q=$.aI,p=$.aD(),o=A.b([],t.Jh),n=A.b2(7,s,!1,t.JI),m=t.S,l=t.j1
 m=new A.Ur(s,$,r,!0,new A.bA(new A.ax(q,t.D4),t.gR),!1,s,!1,$,s,$,$,$,A.P(t.K,t.Ju),!1,0,!1,$,0,s,$,$,new A.a17(A.b6(t.M)),$,$,$,new A.bW(s,p,t.Yv),$,s,o,s,A.b2F(),new A.O9(A.b2E(),n,t.G7),!1,0,A.P(m,t.h1),A.d0(m),A.b([],l),A.b([],l),s,!1,B.e1,!0,!1,s,B.H,B.H,s,0,s,!1,s,s,0,A.mv(s,t.qL),new A.agg(A.P(m,t.rr),A.P(t.Ld,t.iD)),new A.abe(A.P(m,t.cK)),new A.agj(),A.P(m,t.Fn),$,!1,B.GF)
 m.hI()
 m.a7E()
@@ -28191,7 +28191,7 @@ td(){var s=0,r=A.L(t.cZ),q,p=2,o,n,m,l,k,j,i
 var $async$td=A.M(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:s=$.ak8==null?3:4
 break
-case 3:n=new A.bA(new A.ax($.aH,t.Gl),t.Iy)
+case 3:n=new A.bA(new A.ax($.aI,t.Gl),t.Iy)
 $.ak8=n
 p=6
 s=9
@@ -33249,7 +33249,7 @@ $.a3M=$.a3M+s.length
 A.aG7(s)}if(!$.a4j().gan(0)){$.aF8=!0
 $.a3M=0
 A.co(B.dD,A.b4F())
-if($.aAc==null)$.aAc=new A.bA(new A.ax($.aH,t.D4),t.gR)}else{$.aGJ().oH(0)
+if($.aAc==null)$.aAc=new A.bA(new A.ax($.aI,t.D4),t.gR)}else{$.aGJ().oH(0)
 r=$.aAc
 if(r!=null)r.k8(0)
 $.aAc=null}},
@@ -37383,7 +37383,7 @@ if(q.c.n(0,b)||q.d.au(0,b.b))return
 s=q.d
 r=s.a
 s.p(0,b.b,b)
-if(q.f==null)q.f=new A.bA(new A.ax($.aH,t.D4),t.gR)
+if(q.f==null)q.f=new A.bA(new A.ax($.aI,t.D4),t.gR)
 if(r===0)A.co(B.H,q.ga3H())},
 qv(){var s=0,r=A.L(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$qv=A.M(function(a,b){if(a===1)return A.I(b,r)
@@ -41231,7 +41231,7 @@ gx_(){return 1},
 gDQ(){return 0},
 kE(){var s=0,r=A.L(t.Uy),q,p=this,o,n,m
 var $async$kE=A.M(function(a,b){if(a===1)return A.I(b,r)
-while(true)switch(s){case 0:n=new A.ax($.aH,t.qc)
+while(true)switch(s){case 0:n=new A.ax($.aI,t.qc)
 m=new A.bA(n,t.xt)
 if($.aRX()){o=A.bK(self.document,"img")
 A.aIl(o,p.a)
@@ -46861,7 +46861,7 @@ vN(a){return this.aoj(a)},
 aoj(a){var s=0,r=A.L(t.y),q,p=2,o,n=[],m=this,l,k,j
 var $async$vN=A.M(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:k=m.CW
-j=new A.bA(new A.ax($.aH,t.D4),t.gR)
+j=new A.bA(new A.ax($.aI,t.D4),t.gR)
 m.CW=j.a
 s=3
 return A.E(k,$async$vN)
@@ -48642,7 +48642,7 @@ a.CW=a
 a.ch=a},
 V7(a,b,c,d){var s,r,q,p,o,n,m,l=this
 if((l.c&4)!==0)return A.aM_(c,A.p(l).c)
-s=$.aH
+s=$.aI
 r=d?1:0
 q=A.apt(s,a)
 p=A.aEB(s,b)
@@ -48678,7 +48678,7 @@ s.toString
 return s}if(!q.gr6())throw A.d(q.qL())
 q.c|=4
 r=q.r
-if(r==null)r=q.r=new A.ax($.aH,t.D4)
+if(r==null)r=q.r=new A.ax($.aI,t.D4)
 q.nl()
 return r},
 Ri(a){var s,r,q,p=this,o=p.c
@@ -48789,22 +48789,22 @@ throw A.d(A.c8("The error handler of Future.catchError must return a value of th
 A.ax.prototype={
 UG(a){this.a=this.a&1|4
 this.c=a},
-hQ(a,b,c,d){var s,r,q=$.aH
+hQ(a,b,c,d){var s,r,q=$.aI
 if(q===B.aQ){if(c!=null&&!t.Hg.b(c)&&!t.C_.b(c))throw A.d(A.iF(c,"onError",u.w))}else if(c!=null)c=A.aNL(c,q)
 s=new A.ax(q,d.i("ax<0>"))
 r=c==null?1:3
 this.qN(new A.jl(s,r,b,c,this.$ti.i("@<1>").al(d).i("jl<1,2>")))
 return s},
 ci(a,b,c){return this.hQ(0,b,null,c)},
-Vu(a,b,c){var s=new A.ax($.aH,c.i("ax<0>"))
+Vu(a,b,c){var s=new A.ax($.aI,c.i("ax<0>"))
 this.qN(new A.jl(s,19,a,b,this.$ti.i("@<1>").al(c).i("jl<1,2>")))
 return s},
-rA(a,b){var s=this.$ti,r=$.aH,q=new A.ax(r,s)
+rA(a,b){var s=this.$ti,r=$.aI,q=new A.ax(r,s)
 if(r!==B.aQ)a=A.aNL(a,r)
 this.qN(new A.jl(q,2,b,a,s.i("@<1>").al(s.c).i("jl<1,2>")))
 return q},
 pk(a){return this.rA(a,null)},
-j_(a){var s=this.$ti,r=new A.ax($.aH,s)
+j_(a){var s=this.$ti,r=new A.ax($.aI,s)
 this.qN(new A.jl(r,8,a,null,s.i("@<1>").al(s.c).i("jl<1,2>")))
 return r},
 amg(a){this.a=this.a&1|16
@@ -48935,14 +48935,14 @@ n.b=!0}},
 $S:0}
 A.V_.prototype={}
 A.dj.prototype={
-gq(a){var s={},r=new A.ax($.aH,t.wJ)
+gq(a){var s={},r=new A.ax($.aI,t.wJ)
 s.a=0
 this.hJ(new A.al0(s,this),!0,new A.al1(s,r),r.gG7())
 return r},
-eN(a){var s=A.p(this),r=A.b([],s.i("x<dj.T>")),q=new A.ax($.aH,s.i("ax<S<dj.T>>"))
+eN(a){var s=A.p(this),r=A.b([],s.i("x<dj.T>")),q=new A.ax($.aI,s.i("ax<S<dj.T>>"))
 this.hJ(new A.al2(this,r),!0,new A.al3(q,r),q.gG7())
 return q},
-gS(a){var s=new A.ax($.aH,A.p(this).i("ax<dj.T>")),r=this.hJ(null,!0,new A.akZ(s),s.gG7())
+gS(a){var s=new A.ax($.aI,A.p(this).i("ax<dj.T>")),r=this.hJ(null,!0,new A.akZ(s),s.gG7())
 r.LT(new A.al_(this,r,s))
 return s}}
 A.al0.prototype={
@@ -48983,7 +48983,7 @@ return(this.b&8)!==0?s.gN4():s},
 FK(){if((this.b&4)!==0)return new A.ja("Cannot add event after closing")
 return new A.ja("Cannot add event while adding a stream")},
 R0(){var s=this.c
-if(s==null)s=this.c=(this.b&2)!==0?$.z5():new A.ax($.aH,t.D4)
+if(s==null)s=this.c=(this.b&2)!==0?$.z5():new A.ax($.aI,t.D4)
 return s},
 G(a,b){if(this.b>=4)throw A.d(this.FK())
 this.lX(0,b)},
@@ -49025,7 +49025,7 @@ s=l.r
 if(s!=null)if(k==null)try{r=s.$0()
 if(t.uz.b(r))k=r}catch(o){q=A.at(o)
 p=A.bg(o)
-n=new A.ax($.aH,t.D4)
+n=new A.ax($.aI,t.D4)
 n.zj(q,p)
 k=n}else k=k.j_(s)
 m=new A.ay8(l)
@@ -49230,7 +49230,7 @@ A.azX.prototype={
 $0(){return this.a.na(this.b)},
 $S:0}
 A.GT.prototype={
-hJ(a,b,c,d){var s=this.$ti,r=$.aH,q=b===!0?1:0,p=A.apt(r,a),o=A.aEB(r,d)
+hJ(a,b,c,d){var s=this.$ti,r=$.aI,q=b===!0?1:0,p=A.apt(r,a),o=A.aEB(r,d)
 s=new A.xW(this,p,o,c,r,q,s.i("@<1>").al(s.y[1]).i("xW<1,2>"))
 s.x=this.a.xu(s.gaez(),s.gaeO(),s.gaf9())
 return s},
@@ -49262,18 +49262,18 @@ $0(){A.aVc(this.a,this.b)},
 $S:0}
 A.axn.prototype={
 y4(a){var s,r,q
-try{if(B.aQ===$.aH){a.$0()
+try{if(B.aQ===$.aI){a.$0()
 return}A.aNO(null,null,this,a)}catch(q){s=A.at(q)
 r=A.bg(q)
 A.yU(s,r)}},
 ay3(a,b){var s,r,q
-try{if(B.aQ===$.aH){a.$1(b)
+try{if(B.aQ===$.aI){a.$1(b)
 return}A.aNQ(null,null,this,a,b)}catch(q){s=A.at(q)
 r=A.bg(q)
 A.yU(s,r)}},
 y5(a,b){return this.ay3(a,b,t.z)},
 ay_(a,b,c){var s,r,q
-try{if(B.aQ===$.aH){a.$2(b,c)
+try{if(B.aQ===$.aI){a.$2(b,c)
 return}A.aNP(null,null,this,a,b,c)}catch(q){s=A.at(q)
 r=A.bg(q)
 A.yU(s,r)}},
@@ -49283,14 +49283,14 @@ apb(a,b,c,d){return new A.axo(this,a,c,d,b)},
 Jt(a){return new A.axp(this,a)},
 Xd(a,b){return new A.axq(this,a,b)},
 h(a,b){return null},
-axX(a){if($.aH===B.aQ)return a.$0()
+axX(a){if($.aI===B.aQ)return a.$0()
 return A.aNO(null,null,this,a)},
 hO(a){return this.axX(a,t.z)},
-ay2(a,b){if($.aH===B.aQ)return a.$1(b)
+ay2(a,b){if($.aI===B.aQ)return a.$1(b)
 return A.aNQ(null,null,this,a,b)},
 ME(a,b){var s=t.z
 return this.ay2(a,b,s,s)},
-axZ(a,b,c){if($.aH===B.aQ)return a.$2(b,c)
+axZ(a,b,c){if($.aI===B.aQ)return a.$2(b,c)
 return A.aNP(null,null,this,a,b,c)},
 a0V(a,b,c){var s=t.z
 return this.axZ(a,b,c,s,s,s)},
@@ -53397,9 +53397,9 @@ if(!r.gan(0)&&s.e!=null){r=r.oo()
 s.e.eI(r.a,r.gZX())
 A.fl(s.gQO())}else s.d=!1}}
 A.a6a.prototype={
-ax0(a,b,c){this.a.cg(0,a,new A.a6b()).c1(new A.IR(b,c,$.aH))},
+ax0(a,b,c){this.a.cg(0,a,new A.a6b()).c1(new A.IR(b,c,$.aI))},
 a2R(a,b){var s=this.a.cg(0,a,new A.a6c()),r=s.e
-s.e=new A.aq7(b,$.aH)
+s.e=new A.aq7(b,$.aI)
 if(r==null&&!s.d){s.d=!0
 A.fl(s.gQO())}},
 atd(a){var s,r,q,p,o,n,m,l="Invalid arguments for 'resize' method sent to dev.flutter/channel-buffers (arguments must be a two-element list, channel name and new capacity)",k="Invalid arguments for 'overflow' method sent to dev.flutter/channel-buffers (arguments must be a two-element list, channel name and flag state)",j=A.dZ(a.buffer,a.byteOffset,a.byteLength)
@@ -53893,7 +53893,7 @@ else{s=A.aJ(b)
 if(s==null)s=t.K.a(s)}A.m(q,"replaceState",[s,c,r])},
 yE(a,b){A.m(self.window.history,"go",[b])
 return this.aoi()},
-aoi(){var s=new A.ax($.aH,t.D4),r=A.aS("unsubscribe")
+aoi(){var s=new A.ax($.aI,t.D4),r=A.aS("unsubscribe")
 r.b=this.Jc(new A.abI(r,new A.bA(s,t.gR)))
 return s}}
 A.abK.prototype={
@@ -54371,7 +54371,7 @@ q=A.aX(m,m,6)
 p=n.w
 p=p.length!==0?p:"joebert"
 o=t.p
-return A.ae9(!1,A.aE6(m,A.dp(A.aI(A.b([A.l(m,new A.aw(B.GW,A.bi(A.b([h,new A.wZ(m),g,f,e,A.aKl(A.bi(A.b([s,d,q,A.l(m,A.H("Welcome "+p+"!",m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,12,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,m,m,m,70)],o),B.j,B.l,B.k),new A.anN(),new A.anO(),r)],o),B.j,B.l,B.k),m),B.e,m,m,new A.az(k,m,m,m,j,m,B.v),m,60,m,m,m,m,m,i.a.a),A.aX(m,20,m),A.l(m,n.e,B.e,m,m,m,m,m,m,m,m,m,m,m)],o),B.j,B.l,B.k),m,m,m,B.N),m),m,A.al(["/home",new A.anP(),"/logout",new A.anQ()],r,t.Ab),l,"GainHub")}}
+return A.ae9(!1,A.aE6(m,A.dp(A.aH(A.b([A.l(m,new A.aw(B.GW,A.bi(A.b([h,new A.wZ(m),g,f,e,A.aKl(A.bi(A.b([s,d,q,A.l(m,A.H("Welcome "+p+"!",m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,12,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,m,m,m,70)],o),B.j,B.l,B.k),new A.anN(),new A.anO(),r)],o),B.j,B.l,B.k),m),B.e,m,m,new A.az(k,m,m,m,j,m,B.v),m,60,m,m,m,m,m,i.a.a),A.aX(m,20,m),A.l(m,n.e,B.e,m,m,m,m,m,m,m,m,m,m,m)],o),B.j,B.l,B.k),m,m,m,B.N),m),m,A.al(["/home",new A.anP(),"/logout",new A.anQ()],r,t.Ab),l,"GainHub")}}
 A.anz.prototype={
 $0(){this.a.w=this.b.a},
 $S:0}
@@ -54448,82 +54448,82 @@ A.zs.prototype={
 a6(){return new A.UW(B.p)}}
 A.UW.prototype={
 H(a){var s,r,q,p,o,n,m,l,k=null,j="View Details",i=A.f(255,255,255,255),h=A.ac(10),g=t.V,f=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g),e=t.h9,d=t.xx,c=t.p
-f=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/direct sales.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Direct Sales",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.s,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aon(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,h,f,k,B.v),k,500,k,k,k,k,k,k),1)
+f=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/direct sales.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Direct Sales",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.s,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aon(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,h,f,k,B.v),k,500,k,k,k,k,k,k),1)
 h=A.aX(k,k,35)
 i=A.f(255,255,255,255)
 s=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-r=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Retail Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.j,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoo(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,s,r,k,B.v),k,500,k,k,k,k,k,k),1)
+r=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Retail Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.j,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoo(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,s,r,k,B.v),k,500,k,k,k,k,k,k),1)
 s=A.aX(k,k,35)
 i=A.f(255,255,255,255)
 q=A.ac(10)
 p=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-p=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([f,h,r,s,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing1.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Field Force Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.W,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aop(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,q,p,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
+p=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([f,h,r,s,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing1.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Field Force Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.W,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aop(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(i,k,k,q,p,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
 q=A.f(255,255,255,255)
 i=A.ac(10)
 s=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-s=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/service.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Service Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.k,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aow(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,i,s,k,B.v),k,500,k,k,k,k,k,k),1)
+s=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/service.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Service Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.k,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aow(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,i,s,k,B.v),k,500,k,k,k,k,k,k),1)
 i=A.aX(k,k,35)
 q=A.f(255,255,255,255)
 r=A.ac(10)
 h=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-h=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/project.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Project Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Project management is the practice of planning, organizing, directing, and controlling resources to achieve specific goals.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aox(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,r,h,k,B.v),k,500,k,k,k,k,k,k),1)
+h=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/project.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Project Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Project management is the practice of planning, organizing, directing, and controlling resources to achieve specific goals.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aox(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,r,h,k,B.v),k,500,k,k,k,k,k,k),1)
 r=A.aX(k,k,35)
 q=A.f(255,255,255,255)
 f=A.ac(10)
 o=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-o=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([s,i,h,r,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/knowledge.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Knowledge Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("An easy-to-use digital solution for Knowledge Management in an organization to organize, store and disseminate information.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoy(a),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,f,o,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
+o=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([s,i,h,r,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/knowledge.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Knowledge Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("An easy-to-use digital solution for Knowledge Management in an organization to organize, store and disseminate information.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoy(a),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(q,k,k,f,o,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
 f=A.f(255,255,255,255)
 q=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-r=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Manufacturing Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Manufacturing management oversees production processes, quality control, and optimization for efficient manufacturing operations.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoz(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,q,r,k,B.v),k,500,k,k,k,k,k,k),1)
+r=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Manufacturing Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Manufacturing management oversees production processes, quality control, and optimization for efficient manufacturing operations.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoz(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,q,r,k,B.v),k,500,k,k,k,k,k,k),1)
 q=A.aX(k,k,35)
 f=A.f(255,255,255,255)
 h=A.ac(10)
 i=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-i=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/inventory.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Inventory Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.E,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoA(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,h,i,k,B.v),k,500,k,k,k,k,k,k),1)
+i=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/inventory.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Inventory Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.E,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoA(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,h,i,k,B.v),k,500,k,k,k,k,k,k),1)
 h=A.aX(k,k,35)
 f=A.f(255,255,255,255)
 s=A.ac(10)
 n=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-n=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([r,q,i,h,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/HRMS2.png",B.G,260,k),B.D),k,k),A.l(k,A.H("HR Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.I,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoB(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,s,n,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
+n=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([r,q,i,h,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/HRMS2.png",B.G,260,k),B.D),k,k),A.l(k,A.H("HR Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.I,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoB(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(f,k,k,s,n,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
 s=A.f(255,255,255,255)
 f=A.ac(10)
 h=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-h=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS1.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("e-Learning",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.M,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoC(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,f,h,k,B.v),k,500,k,k,k,k,k,k),1)
+h=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS1.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("e-Learning",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.M,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoC(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,f,h,k,B.v),k,500,k,k,k,k,k,k),1)
 f=A.aX(k,k,35)
 s=A.f(255,255,255,255)
 i=A.ac(10)
 q=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-q=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/MLM.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Multi-Level Marketing",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.n,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoD(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,i,q,k,B.v),k,500,k,k,k,k,k,k),1)
+q=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/MLM.jpg",B.G,260,k),B.D),k,k),A.l(k,A.H("Multi-Level Marketing",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H(u.n,k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoD(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,i,q,k,B.v),k,500,k,k,k,k,k,k),1)
 i=A.aX(k,k,35)
 s=A.f(255,255,255,255)
 r=A.ac(10)
 m=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-m=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([h,f,q,i,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/rfq-marketing.png",B.G,260,k),B.D),k,k),A.l(k,A.H("RFQ Marketing",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Request for Quotation (RFQ) Management involves soliciting, evaluating, and selecting supplier bids to optimize procurement efficiency and cost savings.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoq(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,r,m,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
+m=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([h,f,q,i,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/rfq-marketing.png",B.G,260,k),B.D),k,k),A.l(k,A.H("RFQ Marketing",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Request for Quotation (RFQ) Management involves soliciting, evaluating, and selecting supplier bids to optimize procurement efficiency and cost savings.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aoq(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(s,k,k,r,m,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
 r=A.f(255,255,255,255)
 s=A.ac(10)
 i=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-i=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/oms-1.png",B.G,260,k),B.D),k,k),A.l(k,A.H("OMS",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Order Management Service (OMS) involves tracking, processing, and fulfilling customer orders efficiently, ensuring accurate inventory, timely delivery, and customer satisfaction.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aor(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,s,i,k,B.v),k,500,k,k,k,k,k,k),1)
+i=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/oms-1.png",B.G,260,k),B.D),k,k),A.l(k,A.H("OMS",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Order Management Service (OMS) involves tracking, processing, and fulfilling customer orders efficiently, ensuring accurate inventory, timely delivery, and customer satisfaction.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aor(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,s,i,k,B.v),k,500,k,k,k,k,k,k),1)
 s=A.aX(k,k,35)
 r=A.f(255,255,255,255)
 q=A.ac(10)
 f=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-f=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/workflow management.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Workflow Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Workflow Management involves designing, automating, and optimizing business processes to improve efficiency, coordination, and task completion within an organization.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aos(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,q,f,k,B.v),k,500,k,k,k,k,k,k),1)
+f=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/workflow management.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Workflow Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Workflow Management involves designing, automating, and optimizing business processes to improve efficiency, coordination, and task completion within an organization.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aos(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,q,f,k,B.v),k,500,k,k,k,k,k,k),1)
 q=A.aX(k,k,35)
 r=A.f(255,255,255,255)
 h=A.ac(10)
 l=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-l=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([i,s,f,q,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS-institutions.png",B.G,260,k),B.D),k,k),A.l(k,A.H("LMS for institutions",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("A Learning Management System (LMS) for institutions facilitates the delivery, tracking, and management of educational content, assessments, and student progress in a centralized platform.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aot(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,h,l,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
+l=A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([i,s,f,q,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS-institutions.png",B.G,260,k),B.D),k,k),A.l(k,A.H("LMS for institutions",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("A Learning Management System (LMS) for institutions facilitates the delivery, tracking, and management of educational content, assessments, and student progress in a centralized platform.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aot(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(r,k,k,h,l,k,B.v),k,500,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)
 h=A.f(255,255,255,255)
 r=A.ac(10)
 q=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-q=A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/purchase.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Purchase Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Purchase management involves overseeing the procurement process, including sourcing, ordering, and acquiring goods or services to ensure cost-effective and timely supply.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aou(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(h,k,k,r,q,k,B.v),k,500,k,k,k,k,k,k),1)
+q=A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/purchase.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Purchase Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Purchase management involves overseeing the procurement process, including sourcing, ordering, and acquiring goods or services to ensure cost-effective and timely supply.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aou(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(h,k,k,r,q,k,B.v),k,500,k,k,k,k,k,k),1)
 r=A.aX(k,k,35)
 h=A.f(255,255,255,255)
 f=A.ac(10)
 g=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],g)
-return A.dp(A.aI(A.b([p,o,n,m,l,A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([q,r,A.aF(A.l(k,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/travel.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Travel Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Travel management involves planning, booking, and organizing business or personal travel, ensuring cost efficiency, compliance, and traveler safety.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aov(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(h,k,k,f,g,k,B.v),k,500,k,k,k,k,k,k),1),A.aX(k,k,35),A.aF(A.l(k,k,B.e,k,k,k,k,k,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),k,k,k,B.N)}}
+return A.dp(A.aH(A.b([p,o,n,m,l,A.l(k,new A.aw(new A.A(100,50,100,50),A.bi(A.b([q,r,A.aF(A.l(k,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/travel.png",B.G,260,k),B.D),k,k),A.l(k,A.H("Travel Management",k,k,k,k,A.N(k,k,A.bu(11,46,127,1),k,k,k,k,k,k,k,k,20,k,k,B.y,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),B.e,k,k,k,k,k,k,k,new A.A(0,25,0,0),k,k,k),A.l(k,A.H("Travel management involves planning, booking, and organizing business or personal travel, ensuring cost efficiency, compliance, and traveler safety.",k,k,k,k,A.N(k,k,A.f(255,0,4,13),k,k,k,k,k,k,k,k,15,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),B.E,k,k),B.e,k,k,k,k,130,k,k,new A.A(25,4,25,20),k,k,k),A.l(k,A.bq(A.H(j,k,k,k,k,A.N(k,k,k,k,k,k,k,k,k,k,k,k,k,k,B.n,k,k,!0,k,k,k,k,k,k,k,k),k,k,k),new A.aov(),A.bp(k,k,new A.Q(A.f(255,251,128,5),e),k,k,k,new A.Q(B.h,e),k,k,k,k,k,k,k,k,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),d),k,k,k,k,k,k)),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),B.e,k,k,new A.az(h,k,k,f,g,k,B.v),k,500,k,k,k,k,k,k),1),A.aX(k,k,35),A.aF(A.l(k,k,B.e,k,k,k,k,k,k,k,k,k,k,k),1)],c),B.j,B.l,B.k),k),B.e,k,k,k,k,k,k,k,k,k,k,k)],c),B.j,B.l,B.k),k,k,k,B.N)}}
 A.aon.prototype={
 $0(){var s=0,r=A.L(t.H)
 var $async$$0=A.M(function(a,b){if(a===1)return A.I(b,r)
@@ -54721,42 +54721,42 @@ A.q_.prototype={
 a6(){return new A.UY(B.p)}}
 A.UY.prototype={
 H(a){var s,r,q,p,o,n,m=this,l=null,k="View Details",j=A.aX(l,30,l),i=m.a.c,h=A.f(255,255,255,255),g=A.ac(10),f=t.V,e=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f),d=t.h9,c=t.xx,b=t.p
-e=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/direct sales.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Direct Sales",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.s,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoE(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,e,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+e=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/direct sales.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Direct Sales",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.s,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoE(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,e,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 g=m.a.c
 h=A.f(255,255,255,255)
 i=A.ac(10)
 s=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-s=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Retail Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.j,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoF(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,s,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+s=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Retail Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.j,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoF(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,s,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 i=m.a.c
 h=A.f(255,255,255,255)
 g=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-r=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing1.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Field Force Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.W,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoG(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,r,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+r=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/manufacturing1.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Field Force Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.W,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoG(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,r,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 g=m.a.c
 h=A.f(255,255,255,255)
 i=A.ac(10)
 q=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-q=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/service.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("Service Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.k,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoH(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,q,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+q=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/service.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("Service Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.k,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoH(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,q,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 i=m.a.c
 h=A.f(255,255,255,255)
 g=A.ac(10)
 p=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-p=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/inventory.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Inventory Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.E,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoI(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,p,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+p=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/inventory.png",B.G,260,l),B.D),l,l),A.l(l,A.H("Inventory Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.E,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoI(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,p,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 g=m.a.c
 h=A.f(255,255,255,255)
 i=A.ac(10)
 o=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-o=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/HRMS2.png",B.G,260,l),B.D),l,l),A.l(l,A.H("HR Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.I,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoJ(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,o,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+o=A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/HRMS2.png",B.G,260,l),B.D),l,l),A.l(l,A.H("HR Management",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.I,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoJ(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,o,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 i=m.a.c
 h=A.f(255,255,255,255)
 g=A.ac(10)
 n=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-n=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS1.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("e-Learning",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.M,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoK(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,n,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
+n=A.l(l,new A.aw(new A.A(i,25,i,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/LMS1.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("e-Learning",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.M,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoK(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,g,n,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l)
 g=m.a.c
 h=A.f(255,255,255,255)
 i=A.ac(10)
 f=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],f)
-return A.dp(A.aI(A.b([j,e,s,r,q,p,o,n,A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/MLM.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("Multi-Level Marketing",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.n,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoL(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,f,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,35,l)],b),B.j,B.l,B.k),l,l,l,B.N)}}
+return A.dp(A.aH(A.b([j,e,s,r,q,p,o,n,A.l(l,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(l,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/MLM.jpg",B.G,260,l),B.D),l,l),A.l(l,A.H("Multi-Level Marketing",l,l,l,l,A.N(l,l,A.bu(11,46,127,1),l,l,l,l,l,l,l,l,20,l,l,B.y,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,new A.A(0,25,0,0),l,l,l),A.l(l,A.H(u.n,l,l,l,l,A.N(l,l,A.f(255,0,4,13),l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),B.E,l,l),B.e,l,l,l,l,130,l,l,new A.A(25,4,25,20),l,l,l),A.l(l,A.bq(A.H(k,l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.aoL(),A.bp(l,l,new A.Q(A.f(255,251,128,5),d),l,l,l,new A.Q(B.h,d),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),c),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],b),B.j,B.l,B.k),B.e,l,l,new A.az(h,l,l,i,f,l,B.v),l,500,l,l,l,l,l,l),1)],b),B.j,B.l,B.k),l),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,35,l)],b),B.j,B.l,B.k),l,l,l,B.N)}}
 A.aoE.prototype={
 $0(){var s=0,r=A.L(t.H)
 var $async$$0=A.M(function(a,b){if(a===1)return A.I(b,r)
@@ -54932,7 +54932,7 @@ o.push(new A.wZ(s))
 o.push(A.aX(s,s,10))
 o.push(A.aX(s,s,10))
 o.push(A.aKl(A.bi(A.b([A.aX(s,s,20),A.l(s,A.aHJ(B.dy,A.br("assets/images/profile.png",s,s,s),30),B.e,s,s,s,s,33,s,s,s,s,s,33),A.aX(s,s,6),A.l(s,A.H(" Welcome !",s,s,s,s,A.aDo(new A.w(r),10,s,B.n,2.4),s,s,s),B.e,s,s,s,s,s,s,s,s,s,s,70)],p),B.j,B.l,B.k),new A.aoi(this),new A.aoj(),t.N))
-return A.dp(A.aI(A.b([A.l(s,A.bi(o,B.j,B.l,B.k),B.e,s,s,new A.az(new A.w(4294967295),s,s,s,q,s,B.v),s,60,s,s,new A.A(0,0,15,0),s,s,s)],p),B.j,B.l,B.k),s,s,s,B.N)}}
+return A.dp(A.aH(A.b([A.l(s,A.bi(o,B.j,B.l,B.k),B.e,s,s,new A.az(new A.w(4294967295),s,s,s,q,s,B.v),s,60,s,s,new A.A(0,0,15,0),s,s,s)],p),B.j,B.l,B.k),s,s,s,B.N)}}
 A.aod.prototype={
 $0(){},
 $S:0}
@@ -54968,54 +54968,54 @@ A.Bs.prototype={
 a6(){return new A.XI(B.p)}}
 A.XI.prototype={
 H(a){var s,r,q,p,o,n,m=null,l="View Details",k=A.f(255,255,255,255),j=A.ac(10),i=t.V,h=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i),g=t.h9,f=t.xx,e=t.p
-h=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Manufacturing & Industrials",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.h,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ath(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
+h=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Manufacturing & Industrials",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.h,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ath(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
 j=A.aX(m,m,35)
 k=A.f(255,255,255,255)
 s=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-r=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("Telecom & ISPs",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("Telecom and Internet Service Providers (ISPs) rely heavily on software to manage network infrastructure, monitor performance, and deliver seamless services to customers. Through software-defined networking (SDN) and network function virtualization (NFV), providers can dynamically allocate resources, optimize traffic flow, and rapidly deploy new services. ",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ati(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,r,m,B.v),m,580,m,m,m,m,m,m),1)
+r=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("Telecom & ISPs",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("Telecom and Internet Service Providers (ISPs) rely heavily on software to manage network infrastructure, monitor performance, and deliver seamless services to customers. Through software-defined networking (SDN) and network function virtualization (NFV), providers can dynamically allocate resources, optimize traffic flow, and rapidly deploy new services. ",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ati(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,r,m,B.v),m,580,m,m,m,m,m,m),1)
 s=A.aX(m,m,35)
 k=A.f(255,255,255,255)
 q=A.ac(10)
 p=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-p=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([h,j,r,s,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("IT & Technology",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.g,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atj(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,q,p,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+p=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([h,j,r,s,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("IT & Technology",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.g,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atj(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,q,p,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 q=A.f(255,255,255,255)
 k=A.ac(10)
 s=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-s=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Consumer CPG",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.t,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atk(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,k,s,m,B.v),m,580,m,m,m,m,m,m),1)
+s=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Consumer CPG",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.t,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atk(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,k,s,m,B.v),m,580,m,m,m,m,m,m),1)
 k=A.aX(m,m,35)
 q=A.f(255,255,255,255)
 r=A.ac(10)
 j=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-j=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,m),B.D),m,m),A.l(m,A.H("BFSI",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.J,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atl(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,r,j,m,B.v),m,580,m,m,m,m,m,m),1)
+j=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,m),B.D),m,m),A.l(m,A.H("BFSI",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.J,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atl(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,r,j,m,B.v),m,580,m,m,m,m,m,m),1)
 r=A.aX(m,m,35)
 q=A.f(255,255,255,255)
 h=A.ac(10)
 o=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-o=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([s,k,j,r,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Pharma & Health",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.C,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atm(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,h,o,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+o=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([s,k,j,r,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Pharma & Health",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.C,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atm(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(q,m,m,h,o,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 h=A.f(255,255,255,255)
 q=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-r=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,m),B.D),m,m),A.l(m,A.H("EdTech",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.f,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atn(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,q,r,m,B.v),m,580,m,m,m,m,m,m),1)
+r=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,m),B.D),m,m),A.l(m,A.H("EdTech",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.f,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atn(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,q,r,m,B.v),m,580,m,m,m,m,m,m),1)
 q=A.aX(m,m,35)
 h=A.f(255,255,255,255)
 j=A.ac(10)
 k=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-k=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Media & Entertainment",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.e,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ato(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,j,k,m,B.v),m,580,m,m,m,m,m,m),1)
+k=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Media & Entertainment",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.e,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.ato(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,j,k,m,B.v),m,580,m,m,m,m,m,m),1)
 j=A.aX(m,m,35)
 h=A.f(255,255,255,255)
 s=A.ac(10)
 n=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-n=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([r,q,k,j,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Automotive",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.F,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atp(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,s,n,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+n=A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([r,q,k,j,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Automotive",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.F,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atp(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,s,n,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 s=A.f(255,255,255,255)
 h=A.ac(10)
 j=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-j=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Startups & Early Stage",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.a,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atq(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,h,j,m,B.v),m,580,m,m,m,m,m,m),1)
+j=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Startups & Early Stage",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.a,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atq(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,h,j,m,B.v),m,580,m,m,m,m,m,m),1)
 h=A.aX(m,m,35)
 s=A.f(255,255,255,255)
 k=A.ac(10)
 i=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-return A.dp(A.aI(A.b([p,o,n,A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([j,h,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Retail",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.G,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atr(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,i,m,B.v),m,580,m,m,m,m,m,m),1),A.aX(m,m,35),A.aF(A.l(m,m,B.e,m,m,m,m,m,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),m,m,m,B.N)}}
+return A.dp(A.aH(A.b([p,o,n,A.l(m,new A.aw(new A.A(100,50,100,50),A.bi(A.b([j,h,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Retail",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.G,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atr(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,i,m,B.v),m,580,m,m,m,m,m,m),1),A.aX(m,m,35),A.aF(A.l(m,m,B.e,m,m,m,m,m,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),m,m,m,B.N)}}
 A.ath.prototype={
 $0(){var s=A.cx(new A.atg(),null,t.z)
 A.bY(this.a,!1).c1(s)},
@@ -55097,57 +55097,57 @@ A.vo.prototype={
 a6(){return new A.XK(B.p)}}
 A.XK.prototype={
 H(a1){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="View Details",g=j.a.c,f=A.f(255,255,255,255),e=A.ac(10),d=t.V,c=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d),b=t.h9,a=t.xx,a0=t.p
-c=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Manufacturing & Industrials",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.h,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atD(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,c,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+c=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Manufacturing & Industrials",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.h,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atD(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,c,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 e=j.a.c
 f=A.f(255,255,255,255)
 g=A.ac(10)
 s=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-s=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,i),B.D),i,i),A.l(i,A.H("Telecom & ISPs",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.H,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atE(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,s,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+s=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,i),B.D),i,i),A.l(i,A.H("Telecom & ISPs",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.H,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atE(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,s,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 g=j.a.c
 f=A.f(255,255,255,255)
 e=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-r=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,i),B.D),i,i),A.l(i,A.H("IT & Technology",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.g,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atF(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,r,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+r=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,i),B.D),i,i),A.l(i,A.H("IT & Technology",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.g,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atF(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,r,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 e=j.a.c
 f=A.f(255,255,255,255)
 g=A.ac(10)
 q=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-q=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Consumer CPG",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.t,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atG(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,q,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+q=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Consumer CPG",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.t,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atG(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,q,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 g=j.a.c
 f=A.f(255,255,255,255)
 e=A.ac(10)
 p=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-p=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,i),B.D),i,i),A.l(i,A.H("BFSI",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.J,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atH(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,p,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+p=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,i),B.D),i,i),A.l(i,A.H("BFSI",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.J,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atH(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,p,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 e=j.a.c
 f=A.f(255,255,255,255)
 g=A.ac(10)
 o=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-o=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Pharma & Health",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.C,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atI(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,o,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+o=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Pharma & Health",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.C,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atI(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,o,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 g=j.a.c
 f=A.f(255,255,255,255)
 e=A.ac(10)
 n=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-n=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,i),B.D),i,i),A.l(i,A.H("EdTech",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.f,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atJ(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,n,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+n=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,i),B.D),i,i),A.l(i,A.H("EdTech",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.f,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atJ(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,n,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 e=j.a.c
 f=A.f(255,255,255,255)
 g=A.ac(10)
 m=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-m=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Media & Entertainment",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.e,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atK(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,m,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+m=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Media & Entertainment",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.e,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atK(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,m,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 g=j.a.c
 f=A.f(255,255,255,255)
 e=A.ac(10)
 l=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-l=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Automotive",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.F,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atL(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,l,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+l=A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Automotive",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.F,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atL(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,l,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 e=j.a.c
 f=A.f(255,255,255,255)
 g=A.ac(10)
 k=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-k=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Startups & Early Stage",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.a,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atM(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,k,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
+k=A.l(i,new A.aw(new A.A(e,25,e,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Startups & Early Stage",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.a,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atM(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,g,k,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i)
 g=j.a.c
 f=A.f(255,255,255,255)
 e=A.ac(10)
 d=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],d)
-return A.dp(A.aI(A.b([c,s,r,q,p,o,n,m,l,k,A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Retail",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.G,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atN(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,d,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i),A.aX(i,35,i)],a0),B.j,B.l,B.k),i,i,i,B.N)}}
+return A.dp(A.aH(A.b([c,s,r,q,p,o,n,m,l,k,A.l(i,new A.aw(new A.A(g,25,g,25),A.bi(A.b([A.aF(A.l(i,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,i),B.D),i,i),A.l(i,A.H("Retail",i,i,i,i,A.N(i,i,A.bu(11,46,127,1),i,i,i,i,i,i,i,i,20,i,i,B.y,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.e,i,i,i,i,i,i,i,new A.A(0,25,0,0),i,i,i),A.l(i,A.H(u.G,i,i,i,i,A.N(i,i,A.f(255,0,4,13),i,i,i,i,i,i,i,i,15,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),B.E,i,i),B.e,i,i,i,i,200,i,i,new A.A(25,4,25,20),i,i,i),A.l(i,A.bq(A.H(h,i,i,i,i,A.N(i,i,i,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),new A.atN(a1),A.bp(i,i,new A.Q(A.f(255,251,128,5),b),i,i,i,new A.Q(B.h,b),i,i,i,i,i,i,i,i,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),a),i,i,i,i,i,i)),B.e,i,i,i,i,i,i,i,i,i,i,i)],a0),B.j,B.l,B.k),B.e,i,i,new A.az(f,i,i,e,d,i,B.v),i,580,i,i,i,i,i,i),1)],a0),B.j,B.l,B.k),i),B.e,i,i,i,i,i,i,i,i,i,i,i),A.aX(i,35,i)],a0),B.j,B.l,B.k),i,i,i,B.N)}}
 A.atD.prototype={
 $0(){var s=A.cx(new A.atC(),null,t.z)
 A.bY(this.a,!1).c1(s)},
@@ -55229,52 +55229,52 @@ A.Bt.prototype={
 a6(){return new A.XL(B.p)}}
 A.XL.prototype={
 H(a){var s,r,q,p,o,n,m=null,l="View Details",k=A.f(255,255,255,255),j=A.ac(10),i=t.V,h=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i),g=t.h9,f=t.xx,e=t.p
-h=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Manufacturing & Industrials",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.h,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atZ(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
+h=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_manufacturing.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Manufacturing & Industrials",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.h,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.atZ(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
 j=A.aX(m,m,35)
 k=A.f(255,255,255,255)
 s=A.ac(10)
 r=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-r=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([h,j,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("Telecom & ISPs",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.H,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au_(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,r,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+r=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([h,j,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_telecom.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("Telecom & ISPs",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.H,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au_(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,r,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 s=A.f(255,255,255,255)
 k=A.ac(10)
 j=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-j=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("IT & Technology",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.g,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au0(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,j,m,B.v),m,580,m,m,m,m,m,m),1)
+j=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/IT.jpg",B.G,260,m),B.D),m,m),A.l(m,A.H("IT & Technology",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.g,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au0(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,j,m,B.v),m,580,m,m,m,m,m,m),1)
 k=A.aX(m,m,35)
 s=A.f(255,255,255,255)
 h=A.ac(10)
 q=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-q=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([j,k,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Consumer CPG",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.t,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au1(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,h,q,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+q=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([j,k,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/cgp.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Consumer CPG",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.t,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au1(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,h,q,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 h=A.f(255,255,255,255)
 s=A.ac(10)
 k=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-k=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,m),B.D),m,m),A.l(m,A.H("BFSI",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("BFSI (Banking, Financial Services, and Insurance) institutions heavily rely on software solutions to manage transactions, mitigate risks, and comply with regulatory requirements. Core banking systems, risk management software, and customer relationship management (CRM) platforms enable efficient operations and enhance service delivery. ",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au2(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,s,k,m,B.v),m,580,m,m,m,m,m,m),1)
+k=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/bfsi.png",B.G,260,m),B.D),m,m),A.l(m,A.H("BFSI",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("BFSI (Banking, Financial Services, and Insurance) institutions heavily rely on software solutions to manage transactions, mitigate risks, and comply with regulatory requirements. Core banking systems, risk management software, and customer relationship management (CRM) platforms enable efficient operations and enhance service delivery. ",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au2(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,s,k,m,B.v),m,580,m,m,m,m,m,m),1)
 s=A.aX(m,m,35)
 h=A.f(255,255,255,255)
 j=A.ac(10)
 p=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-p=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([k,s,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Pharma & Health",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.C,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au3(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,j,p,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+p=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([k,s,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_pharma.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Pharma & Health",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.C,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au3(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(h,m,m,j,p,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 j=A.f(255,255,255,255)
 h=A.ac(10)
 s=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-s=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,m),B.D),m,m),A.l(m,A.H("EdTech",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.f,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au4(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(j,m,m,h,s,m,B.v),m,580,m,m,m,m,m,m),1)
+s=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/edtech.png",B.G,260,m),B.D),m,m),A.l(m,A.H("EdTech",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.f,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au4(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(j,m,m,h,s,m,B.v),m,580,m,m,m,m,m,m),1)
 h=A.aX(m,m,35)
 j=A.f(255,255,255,255)
 k=A.ac(10)
 o=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-o=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([s,h,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Media & Entertainment",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.e,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au5(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(j,m,m,k,o,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+o=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([s,h,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/media.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Media & Entertainment",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.e,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au5(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(j,m,m,k,o,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 k=A.f(255,255,255,255)
 j=A.ac(10)
 h=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-h=A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Automotive",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.F,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au6(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
+h=A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/automotive.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Automotive",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.F,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au6(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,j,h,m,B.v),m,580,m,m,m,m,m,m),1)
 j=A.aX(m,m,35)
 k=A.f(255,255,255,255)
 s=A.ac(10)
 n=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-n=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([h,j,A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Startups & Early Stage",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.a,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au7(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,n,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
+n=A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([h,j,A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/startup.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Startups & Early Stage",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H(u.a,m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au7(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(k,m,m,s,n,m,B.v),m,580,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)
 s=A.f(255,255,255,255)
 k=A.ac(10)
 i=A.b([new A.ap(6,B.r,A.f(102,158,158,158),new A.c(0,3),10)],i)
-return A.dp(A.aI(A.b([r,q,p,o,n,A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([A.aF(A.l(m,A.aI(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Retail",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("Retail software empowers businesses to manage inventory, optimize sales, and enhance customer experiences both online and in-store. Point-of-sale (POS) systems, inventory management software, and customer relationship management (CRM) platforms streamline operations, improve efficiency, and drive sales growth.",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au8(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,i,m,B.v),m,580,m,m,m,m,m,m),1),A.aX(m,m,35),A.aF(A.l(m,m,B.e,m,m,m,m,m,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),m,m,m,B.N)}}
+return A.dp(A.aH(A.b([r,q,p,o,n,A.l(m,new A.aw(new A.A(40,25,40,25),A.bi(A.b([A.aF(A.l(m,A.aH(A.b([A.b9(A.bG(new A.aG(new A.D(10,10),new A.D(10,10),B.i,B.i),A.br("assets/images/sector_retaill.png",B.G,260,m),B.D),m,m),A.l(m,A.H("Retail",m,m,m,m,A.N(m,m,A.bu(11,46,127,1),m,m,m,m,m,m,m,m,20,m,m,B.y,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),B.e,m,m,m,m,m,m,m,new A.A(0,25,0,0),m,m,m),A.l(m,A.H("Retail software empowers businesses to manage inventory, optimize sales, and enhance customer experiences both online and in-store. Point-of-sale (POS) systems, inventory management software, and customer relationship management (CRM) platforms streamline operations, improve efficiency, and drive sales growth.",m,m,m,m,A.N(m,m,A.f(255,0,4,13),m,m,m,m,m,m,m,m,15,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),B.E,m,m),B.e,m,m,m,m,200,m,m,new A.A(25,4,25,20),m,m,m),A.l(m,A.bq(A.H(l,m,m,m,m,A.N(m,m,m,m,m,m,m,m,m,m,m,m,m,m,B.n,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),new A.au8(a),A.bp(m,m,new A.Q(A.f(255,251,128,5),g),m,m,m,new A.Q(B.h,g),m,m,m,m,m,m,m,m,new A.Q(new A.aK(A.ac(20),new A.ak(A.f(255,251,128,5),1,B.q,-1)),f),m,m,m,m,m,m)),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),B.e,m,m,new A.az(s,m,m,k,i,m,B.v),m,580,m,m,m,m,m,m),1),A.aX(m,m,35),A.aF(A.l(m,m,B.e,m,m,m,m,m,m,m,m,m,m,m),1)],e),B.j,B.l,B.k),m),B.e,m,m,m,m,m,m,m,m,m,m,m)],e),B.j,B.l,B.k),m,m,m,B.N)}}
 A.atZ.prototype={
 $0(){var s=A.cx(new A.atY(),null,t.z)
 A.bY(this.a,!1).c1(s)},
@@ -55690,7 +55690,7 @@ o=A.ac(14)
 k=i.ax
 j=A.aHH("Faculty Attendance",A.mh(new A.w(c),13,g,B.n,1.15385,-0.08))
 m=A.b([A.aHN(g,g,B.ax,g,i.e,g,new A.apd(i),g,new A.ape(),g,new A.apf(),t.Ua,n)],m)
-return A.dp(A.aI(A.b([new A.aw(B.hn,r,g),s,p,new A.aw(B.hn,l,g),A.l(g,A.b9(A.t7(A.dp(A.l(g,A.aKN(A.aHG(new A.nW(0),a,new A.oB(0)),A.aK5(new A.nW(0),0,1,b,new A.oB(0)),m,j,g),B.e,g,g,g,g,g,g,g,g,g,g,1000),k,g,g,B.aa),k,g,!0),g,g),B.e,g,g,new A.az(new A.w(f),g,g,o,g,g,B.v),g,g,g,g,B.dE,g,g,g)],q),B.j,B.l,B.k),g,g,g,B.N)}}
+return A.dp(A.aH(A.b([new A.aw(B.hn,r,g),s,p,new A.aw(B.hn,l,g),A.l(g,A.b9(A.t7(A.dp(A.l(g,A.aKN(A.aHG(new A.nW(0),a,new A.oB(0)),A.aK5(new A.nW(0),0,1,b,new A.oB(0)),m,j,g),B.e,g,g,g,g,g,g,g,g,g,g,1000),k,g,g,B.aa),k,g,!0),g,g),B.e,g,g,new A.az(new A.w(f),g,g,o,g,g,B.v),g,g,g,g,B.dE,g,g,g)],q),B.j,B.l,B.k),g,g,g,B.N)}}
 A.aoX.prototype={
 $0(){var s=this.a
 s.as=s.Q=null
@@ -56065,21 +56065,23 @@ b=p.at
 b.toString
 j=p.ax
 j.toString
-j=A.aI(A.b([new A.hG("English Total Content",b,70,350,o),new A.hG("Maths Total Content",j,70,350,o)],q),B.j,B.l,B.k)
+j=A.aH(A.b([new A.hG("English Total Content",b,70,250,o),new A.hG("Maths Total Content",j,70,250,o)],q),B.j,B.l,B.k)
 b=p.ay
 b.toString
 k=p.ch
 k.toString
-k=A.aI(A.b([new A.hG("English Published Content",b,30,300,o),new A.hG("English Content Views Count",0,30,300,o),new A.hG("Maths Published Content",k,30,300,o),new A.hG("Maths Content Views Count",0,30,300,o)],q),B.j,B.l,B.k)
-b=p.dx
-b.toString
-e=p.CW
+k=A.aH(A.b([new A.hG("English Published Content",b,70,250,o),new A.hG("Maths Published Content",k,70,250,o)],q),B.j,B.l,B.k)
+b=A.aH(A.b([new A.hG("English Content Views Count",0,70,250,o),new A.hG("Maths Content Views Count",0,70,250,o)],q),B.j,B.l,B.k)
+e=p.dx
 e.toString
 h=p.dy
 h.toString
+h=A.aH(A.b([new A.hG("English Exercise Count",e,70,250,o),new A.hG("Maths Exercises Count",h,70,250,o)],q),B.j,B.l,B.k)
+e=p.CW
+e.toString
 d=p.cx
 d.toString
-return A.dp(A.l(o,A.aI(A.b([new A.aw(B.oB,r,o),new A.aw(B.H7,A.bi(A.b([j,k,A.aI(A.b([new A.hG("English Exercise Count",b,30,300,o),new A.hG("English Assignment Count",e,30,300,o),new A.hG("Maths Exercises Count",h,30,300,o),new A.hG("Maths Assignments Count",d,30,300,o)],q),B.j,B.l,B.k)],q),B.j,B.fb,B.k),o),A.aX(o,20,o),new A.aw(B.oB,A.bi(A.b([A.aF(new A.uf(o),1)],q),B.j,B.l,B.k),o),A.aX(o,40,o)],q),B.j,B.l,B.k),B.e,new A.w(4293718015),o,o,o,o,o,o,o,o,o,o),o,o,o,B.N)}}
+return A.dp(A.l(o,A.aH(A.b([new A.aw(B.oB,r,o),new A.aw(B.H7,A.bi(A.b([j,k,b,h,A.aH(A.b([new A.hG("English Assignment Count",e,70,250,o),new A.hG("Maths Assignments Count",d,70,250,o)],q),B.j,B.l,B.k)],q),B.j,B.fb,B.k),o),A.aX(o,20,o),new A.aw(B.oB,A.bi(A.b([A.aF(new A.uf(o),1)],q),B.j,B.l,B.k),o),A.aX(o,40,o)],q),B.j,B.l,B.k),B.e,new A.w(4293718015),o,o,o,o,o,o,o,o,o,o),o,o,o,B.N)}}
 A.auS.prototype={
 $0(){var s=this.a
 s.f=A.hs(this.b,!0,t.a)
@@ -56185,7 +56187,7 @@ a6(){return new A.a1c(B.p)}}
 A.a1c.prototype={
 H(a){var s=null,r=A.H(this.a.d,s,s,s,s,A.N(s,s,B.z,s,s,s,s,s,s,s,s,16,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),q=A.aX(s,7,s),p=this.a.c,o=A.p(p).i("bC<1>"),n=t.jH
 o=A.oC(new A.bC(p,o),new A.ayq(this),o.i("t.E"),n)
-return new A.aw(B.ay,A.aI(A.b([r,q,A.aL9(A.am(A.am(o,!0,A.p(o).i("t.E")),!0,n),B.vJ)],t.p),B.j,B.l,B.k),s)}}
+return new A.aw(B.ay,A.aH(A.b([r,q,A.aL9(A.am(A.am(o,!0,A.p(o).i("t.E")),!0,n),B.vJ)],t.p),B.j,B.l,B.k),s)}}
 A.ayq.prototype={
 $1(a){var s=null,r=4278584838,q=A.ac(5),p=A.ac(4),o=A.i0(new A.w(4291150530),1),n=A.b([new A.ap(0,B.r,A.bu(159,158,158,0.25),new A.c(4,4),5)],t.V),m=this.a,l=t.p
 return new A.hF(new A.az(B.h,s,s,q,s,s,B.v),A.b([A.aLa(A.l(s,A.bi(A.b([A.aF(new A.aw(B.GQ,A.H(A.i(m.a.c.h(0,a)[0]),s,s,s,s,A.mh(new A.w(r),10,s,B.t,2.4,-0.08),B.e7,s,s),s),1),new A.aw(B.GR,A.H(A.i(m.a.c.h(0,a)[1]),s,s,s,s,A.mh(new A.w(r),12,s,B.t,2,-0.08),B.fJ,s,s),s)],l),B.j,B.l,B.k),B.e,s,s,new A.az(new A.w(4294967295),s,o,p,n,s,B.v),s,37,s,s,s,s,s,270.415))],l))},
@@ -56233,7 +56235,7 @@ case 5:return A.J(null,r)
 case 1:return A.I(p,r)}})
 return A.K($async$ke,r)},
 H(a){var s=null,r="Published Content",q="Content Views Count",p=A.ac(8),o=A.i0(B.b9,1),n=this.e,m=A.H("Batches",s,s,s,s,A.N(s,s,A.f(255,87,85,85),s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),l=A.et(B.kB,A.f(255,87,85,85),s),k=A.N(s,s,B.z,s,s,s,s,s,s,s,s,16,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),j=A.l(s,s,B.e,s,s,s,s,s,s,s,s,s,s,s),i=this.f,h=A.a5(i).i("ag<1,hm<q>>"),g=t.N,f=t.R,e=t.z,d=t.p
-return A.dp(A.aI(A.b([new A.aw(B.ck,new A.aw(B.kd,A.l(s,A.a8z(s,16,new A.aw(new A.A(20,0,20,0),m,s),l,24,A.am(new A.ag(i,new A.auQ(),h),!0,h.i("aQ.E")),new A.auR(this),k,j,n,g),B.e,s,s,new A.az(B.h,s,o,p,s,s,B.v),s,s,s,s,s,s,s,s),s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Faculty",4],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b([" Student",8],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Batches",2],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Today's Live Session",4],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["English Total Content",12],f),"2",A.b(["Maths Total Content",48],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b([r,11],f),"2",A.b([q,22],f),"3",A.b([r,5],f),"4",A.b([q,50],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Exercise Count",2],f),"2",A.b(["Assignment Count",1],f),"3",A.b(["Exercises Count",3],f),"4",A.b(["Assignments Count",2],f)],g,e),"",s),s),A.aX(s,50,s),new A.aw(B.ck,A.bi(A.b([A.aF(new A.uf(s),1)],d),B.j,B.l,B.k),s),A.aX(s,40,s)],d),B.j,B.l,B.k),s,s,s,B.N)}}
+return A.dp(A.aH(A.b([new A.aw(B.ck,new A.aw(B.kd,A.l(s,A.a8z(s,16,new A.aw(new A.A(20,0,20,0),m,s),l,24,A.am(new A.ag(i,new A.auQ(),h),!0,h.i("aQ.E")),new A.auR(this),k,j,n,g),B.e,s,s,new A.az(B.h,s,o,p,s,s,B.v),s,s,s,s,s,s,s,s),s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Faculty",4],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b([" Student",8],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Batches",2],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Today's Live Session",4],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["English Total Content",12],f),"2",A.b(["Maths Total Content",48],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b([r,11],f),"2",A.b([q,22],f),"3",A.b([r,5],f),"4",A.b([q,50],f)],g,e),"",s),s),new A.aw(B.ck,new A.kc(A.al(["1",A.b(["Exercise Count",2],f),"2",A.b(["Assignment Count",1],f),"3",A.b(["Exercises Count",3],f),"4",A.b(["Assignments Count",2],f)],g,e),"",s),s),A.aX(s,50,s),new A.aw(B.ck,A.bi(A.b([A.aF(new A.uf(s),1)],d),B.j,B.l,B.k),s),A.aX(s,40,s)],d),B.j,B.l,B.k),s,s,s,B.N)}}
 A.auT.prototype={
 $0(){var s=A.hs(this.b,!0,t.a)
 this.a.f=s
@@ -56269,7 +56271,7 @@ a6(){return new A.a1d(B.p)}}
 A.a1d.prototype={
 H(a){var s=null,r=A.H(this.a.d,s,s,s,s,A.N(s,s,B.z,s,s,s,s,s,s,s,s,16,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),q=A.aX(s,7,s),p=this.a.c,o=A.p(p).i("bC<1>"),n=t.jH
 o=A.oC(new A.bC(p,o),new A.ayr(this),o.i("t.E"),n)
-return new A.aw(B.GN,A.aI(A.b([r,q,A.aL9(A.am(A.am(o,!0,A.p(o).i("t.E")),!0,n),B.vJ)],t.p),B.j,B.l,B.k),s)}}
+return new A.aw(B.GN,A.aH(A.b([r,q,A.aL9(A.am(A.am(o,!0,A.p(o).i("t.E")),!0,n),B.vJ)],t.p),B.j,B.l,B.k),s)}}
 A.ayr.prototype={
 $1(a){var s=null,r=A.ac(8),q=this.a,p=t.p
 return new A.hF(new A.az(B.h,s,A.i0(B.b9,1),r,s,s,B.v),A.b([A.aLa(A.l(s,A.bi(A.b([A.aF(new A.aw(B.oy,A.H(A.i(q.a.c.h(0,a)[0]),s,s,s,s,A.N(s,s,A.f(255,87,85,85),s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.e7,s,s),s),1),A.aF(new A.aw(B.oy,A.H(A.i(q.a.c.h(0,a)[1]),s,s,s,s,A.N(s,s,A.f(255,87,85,85),s,s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.fJ,s,s),s),1)],p),B.eD,B.l,B.k),B.e,s,s,s,s,s,s,B.GJ,s,s,s,s))],p))},
@@ -56285,7 +56287,7 @@ q=A.b([new A.ap(0,B.r,A.bu(159,158,158,0.25),new A.c(4,4),5)],t.V)
 p=A.H(this.a.c,m,m,m,m,A.mh(new A.w(l),10,m,B.t,1.1,m),m,m,m)
 o=this.a
 n=o.f===70?A.aX(m,5,m):A.l(m,m,B.e,m,m,m,m,m,m,m,m,m,m,m)
-return new A.aw(B.GK,A.l(m,A.b9(A.aI(A.b([p,n,A.H(""+o.d,m,m,m,m,A.mh(new A.w(l),12,m,B.t,1.1,m),m,m,m)],t.p),B.j,B.d8,B.k),m,m),B.e,m,m,new A.az(new A.w(4294967295),m,r,s,q,m,B.v),m,j,m,m,m,m,m,k),m)}}
+return new A.aw(B.GK,A.l(m,A.b9(A.aH(A.b([p,n,A.H(""+o.d,m,m,m,m,A.mh(new A.w(l),12,m,B.t,1.1,m),m,m,m)],t.p),B.j,B.d8,B.k),m,m),B.e,m,m,new A.az(new A.w(4294967295),m,r,s,q,m,B.v),m,j,m,m,m,m,m,k),m)}}
 A.jV.prototype={
 a6(){return new A.Yj(B.p)}}
 A.Yj.prototype={
@@ -56348,7 +56350,7 @@ n=t.h9
 k=t.xx
 p=A.bp(l,l,new A.Q(B.bo,n),l,l,l,new A.Q(B.h,n),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(4),B.C),k),l,l,l,l,l,l)
 o=t.p
-return A.dp(A.l(l,A.bi(A.b([A.aF(new A.aw(B.H2,A.aI(A.b([e,d,c,a,b,r,s,q,A.l(l,A.bi(A.b([A.l(l,A.bq(A.H("SIGN IN",l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.bp,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.avs(m,a0),p),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,l,20),A.l(l,A.bq(A.H("SIGN UP",l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.bp,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.avt(),A.bp(l,l,new A.Q(B.h,n),l,l,l,new A.Q(B.bo,n),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(4),new A.ak(B.bo,1,B.q,-1)),k),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],o),B.j,B.d8,B.k),B.e,l,l,l,l,80,l,l,l,l,l,l),A.aX(l,30,l),A.l(l,A.H("OR LOGIN WITH",l,l,l,l,A.N(l,l,A.f(97,37,37,37),l,l,l,l,l,l,l,l,16,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,30,l),A.l(l,A.bi(A.b([A.aF(A.br("assets/images/facebook_icon.png",l,40,40),1),A.aF(A.br("assets/images/google.png",l,40,40),1),A.aF(A.br("assets/images/linkedin.png",l,40,40),1)],o),B.j,B.d8,B.k),B.e,l,l,l,l,l,l,l,l,l,l,200)],o),B.j,B.l,B.k),l),1)],o),B.j,B.l,B.k),B.e,l,l,new A.az(l,l,h,g,l,l,B.v),l,l,l,new A.A(j,i,j,i),l,l,l,f.a.a),l,l,l,B.N)}}
+return A.dp(A.l(l,A.bi(A.b([A.aF(new A.aw(B.H2,A.aH(A.b([e,d,c,a,b,r,s,q,A.l(l,A.bi(A.b([A.l(l,A.bq(A.H("SIGN IN",l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.bp,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.avs(m,a0),p),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,l,20),A.l(l,A.bq(A.H("SIGN UP",l,l,l,l,A.N(l,l,l,l,l,l,l,l,l,l,l,l,l,l,B.bp,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),new A.avt(),A.bp(l,l,new A.Q(B.h,n),l,l,l,new A.Q(B.bo,n),l,l,l,l,l,l,l,l,new A.Q(new A.aK(A.ac(4),new A.ak(B.bo,1,B.q,-1)),k),l,l,l,l,l,l)),B.e,l,l,l,l,l,l,l,l,l,l,l)],o),B.j,B.d8,B.k),B.e,l,l,l,l,80,l,l,l,l,l,l),A.aX(l,30,l),A.l(l,A.H("OR LOGIN WITH",l,l,l,l,A.N(l,l,A.f(97,37,37,37),l,l,l,l,l,l,l,l,16,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.e,l,l,l,l,l,l,l,l,l,l,l),A.aX(l,30,l),A.l(l,A.bi(A.b([A.aF(A.br("assets/images/facebook_icon.png",l,40,40),1),A.aF(A.br("assets/images/google.png",l,40,40),1),A.aF(A.br("assets/images/linkedin.png",l,40,40),1)],o),B.j,B.d8,B.k),B.e,l,l,l,l,l,l,l,l,l,l,200)],o),B.j,B.l,B.k),l),1)],o),B.j,B.l,B.k),B.e,l,l,new A.az(l,l,h,g,l,l,B.v),l,l,l,new A.A(j,i,j,i),l,l,l,f.a.a),l,l,l,B.N)}}
 A.avu.prototype={
 $0(){var s=$.ix.b0()
 s.ol(A.al(["key_user",new A.j2("/home")],t.z,s.$ti.c))},
@@ -56426,7 +56428,7 @@ h=t.h9
 i=t.xx
 k=A.bp(f,f,new A.Q(B.bo,h),f,f,f,new A.Q(B.h,h),f,f,f,f,f,f,f,f,new A.Q(new A.aK(A.ac(4),B.C),i),f,f,f,f,f,f)
 j=t.p
-return A.dp(A.l(f,A.bi(A.b([A.aF(new A.aw(B.GP,A.aI(A.b([s,r,q,o,p,m,n,l,A.l(f,A.bi(A.b([A.l(f,A.bq(A.H("SIGN IN",f,f,f,f,A.N(f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.bp,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),new A.avi(g,a),k),B.e,f,f,f,f,f,f,f,f,f,f,f),A.aX(f,f,20),A.l(f,A.bq(A.H("SIGN UP",f,f,f,f,A.N(f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.bp,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),new A.avj(),A.bp(f,f,new A.Q(B.h,h),f,f,f,new A.Q(B.bo,h),f,f,f,f,f,f,f,f,new A.Q(new A.aK(A.ac(4),new A.ak(B.bo,1,B.q,-1)),i),f,f,f,f,f,f)),B.e,f,f,f,f,f,f,f,f,f,f,f)],j),B.j,B.d8,B.k),B.e,f,f,f,f,80,f,f,f,f,f,450),A.aX(f,30,f),A.l(f,A.H("OR LOGIN WITH",f,f,f,f,A.N(f,f,A.f(97,37,37,37),f,f,f,f,f,f,f,f,16,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),B.e,f,f,f,f,f,f,f,f,f,f,f),A.aX(f,30,f),A.l(f,A.bi(A.b([A.aF(A.br("assets/images/facebook_icon.png",f,60,60),1),A.aF(A.br("assets/images/google.png",f,60,60),1),A.aF(A.br("assets/images/linkedin.png",f,60,60),1)],j),B.j,B.d8,B.k),B.e,f,f,f,f,f,f,f,f,f,f,300)],j),B.j,B.l,B.k),f),1),A.aF(A.l(f,A.br("assets/images/login_banner_image.png",f,f,f),B.e,B.Eo,f,f,f,f,f,f,f,f,f,f),1)],j),B.j,B.l,B.k),B.e,f,f,f,f,d.a.b,f,f,f,f,f,e.a.a),f,f,f,B.N)}}
+return A.dp(A.l(f,A.bi(A.b([A.aF(new A.aw(B.GP,A.aH(A.b([s,r,q,o,p,m,n,l,A.l(f,A.bi(A.b([A.l(f,A.bq(A.H("SIGN IN",f,f,f,f,A.N(f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.bp,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),new A.avi(g,a),k),B.e,f,f,f,f,f,f,f,f,f,f,f),A.aX(f,f,20),A.l(f,A.bq(A.H("SIGN UP",f,f,f,f,A.N(f,f,f,f,f,f,f,f,f,f,f,f,f,f,B.bp,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),new A.avj(),A.bp(f,f,new A.Q(B.h,h),f,f,f,new A.Q(B.bo,h),f,f,f,f,f,f,f,f,new A.Q(new A.aK(A.ac(4),new A.ak(B.bo,1,B.q,-1)),i),f,f,f,f,f,f)),B.e,f,f,f,f,f,f,f,f,f,f,f)],j),B.j,B.d8,B.k),B.e,f,f,f,f,80,f,f,f,f,f,450),A.aX(f,30,f),A.l(f,A.H("OR LOGIN WITH",f,f,f,f,A.N(f,f,A.f(97,37,37,37),f,f,f,f,f,f,f,f,16,f,f,f,f,f,!0,f,f,f,f,f,f,f,f),f,f,f),B.e,f,f,f,f,f,f,f,f,f,f,f),A.aX(f,30,f),A.l(f,A.bi(A.b([A.aF(A.br("assets/images/facebook_icon.png",f,60,60),1),A.aF(A.br("assets/images/google.png",f,60,60),1),A.aF(A.br("assets/images/linkedin.png",f,60,60),1)],j),B.j,B.d8,B.k),B.e,f,f,f,f,f,f,f,f,f,f,300)],j),B.j,B.l,B.k),f),1),A.aF(A.l(f,A.br("assets/images/login_banner_image.png",f,f,f),B.e,B.Eo,f,f,f,f,f,f,f,f,f,f),1)],j),B.j,B.l,B.k),B.e,f,f,f,f,d.a.b,f,f,f,f,f,e.a.a),f,f,f,B.N)}}
 A.avk.prototype={
 $0(){var s=$.ix.b0()
 s.ol(A.al(["key_user",new A.j2("/home")],t.z,s.$ti.c))},
@@ -56556,7 +56558,7 @@ f=c.r?40:250
 e=new A.D(20,20)
 d=A.b([A.l(B.a5,A.et($.KA()[h].b,A.f(255,255,255,255),b),B.e,b,b,b,b,45,b,b,b,b,b,40)],q)
 if(!c.r)d.push(new A.AV(1,B.kq,new A.aw(B.H4,A.H($.KA()[h].a,b,B.b5,b,b,A.aDo(new A.w(4294966010),12,B.ac,B.bp,1),b,b,b),b),b))
-j[h]=A.aI(A.b([A.l(b,A.l(b,A.bi(d,B.j,B.l,B.k),B.e,b,b,new A.az(B.w,b,b,new A.aG(e,e,e,e),b,b,B.v),b,b,b,b,b,b,b,f),B.e,b,b,g,b,b,b,b,b,b,b,b)],q),B.j,B.l,B.k)}m=A.bi(A.b([A.aCE(A.aIK(new A.w(4294967295),A.dp(new A.aw(B.dE,A.aI(A.am(j,!0,k),B.j,B.l,B.k),b),b,b,b,B.N)),b,B.V,b,m,b,b,l),A.aF(new A.vA(b),1)],q),B.j,B.l,B.k)
+j[h]=A.aH(A.b([A.l(b,A.l(b,A.bi(d,B.j,B.l,B.k),B.e,b,b,new A.az(B.w,b,b,new A.aG(e,e,e,e),b,b,B.v),b,b,b,b,b,b,b,f),B.e,b,b,g,b,b,b,b,b,b,b,b)],q),B.j,B.l,B.k)}m=A.bi(A.b([A.aCE(A.aIK(new A.w(4294967295),A.dp(new A.aw(B.dE,A.aH(A.am(j,!0,k),B.j,B.l,B.k),b),b,b,b,B.N)),b,B.V,b,m,b,b,l),A.aF(new A.vA(b),1)],q),B.j,B.l,B.k)
 l=A.f(255,255,255,255)
 i=A.H("Admin Menu",b,b,b,b,A.N(b,b,B.EL,b,b,b,b,b,b,b,b,b,b,b,b,b,b,!0,b,b,b,b,b,b,b,b),b,b,b)
 i=A.b([A.aJE(b,b,b,i,!(A.bP(a1,b,a0).w.a.a>=1100)?A.iR(b,b,b,b,A.et(B.HE,B.h,b),b,new A.azn(a1),b,b,b,b):b)],q)
@@ -56569,8 +56571,8 @@ k=g}else k=b
 g=$.KA()[h]
 f=A.H(g.a,b,b,b,b,new A.y(!0,B.h,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b,b),b,b,b)
 e=new A.D(20,20)
-j[h]=A.aI(A.b([A.l(b,A.aJE(new A.aw(B.dE,A.et(g.b,B.h,b),b),new A.azo(c,h),new A.aK(new A.aG(e,e,e,e),B.C),f,b),B.e,b,b,k,b,b,b,b,b,b,b,b),new A.uQ(b,0.1,A.f(255,174,172,172),b)],q),B.j,B.l,B.k)}B.b.U(i,j)
-return A.ae9(!1,A.aE6(new A.QK(s,new A.F(1/0,72),b),new A.rX(r,p,o,n,m,b),A.aIK(l,A.dp(new A.aw(B.dE,A.aI(i,B.j,B.l,B.k),b),b,b,b,B.N))),b,A.al(["/home",new A.azp(),"/logout",new A.azq()],t.N,t.Ab),a,"Dashboard")}}
+j[h]=A.aH(A.b([A.l(b,A.aJE(new A.aw(B.dE,A.et(g.b,B.h,b),b),new A.azo(c,h),new A.aK(new A.aG(e,e,e,e),B.C),f,b),B.e,b,b,k,b,b,b,b,b,b,b,b),new A.uQ(b,0.1,A.f(255,174,172,172),b)],q),B.j,B.l,B.k)}B.b.U(i,j)
+return A.ae9(!1,A.aE6(new A.QK(s,new A.F(1/0,72),b),new A.rX(r,p,o,n,m,b),A.aIK(l,A.dp(new A.aw(B.dE,A.aH(i,B.j,B.l,B.k),b),b,b,b,B.N))),b,A.al(["/home",new A.azp(),"/logout",new A.azq()],t.N,t.Ab),a,"Dashboard")}}
 A.azr.prototype={
 $0(){var s=this.a
 s.r=!s.r},
@@ -57232,7 +57234,7 @@ Bt(a,b,c,d){return B.aC},
 ui(a,b){return B.m}}
 A.a2E.prototype={}
 A.Mx.prototype={
-H(a){var s=null,r=A.bP(a,B.bn,t.w).w.r.b+8,q=this.c.R(0,new A.c(8,r)),p=A.aI(this.d,B.j,B.l,B.cp),o=$.a3().XV(20,20,B.ct)
+H(a){var s=null,r=A.bP(a,B.bn,t.w).w.r.b+8,q=this.c.R(0,new A.c(8,r)),p=A.aH(this.d,B.j,B.l,B.cp),o=$.a3().XV(20,20,B.ct)
 return new A.aw(new A.A(8,r,8,8),new A.iL(new A.N4(q),A.l(s,A.aT5(A.uL(new A.aw(B.H6,p,s),new A.az(B.FY.dV(a),s,A.i0(B.FW.dV(a),1),B.n3,s,s,B.v),B.cY),o),B.a2,s,s,B.Cm,s,s,s,s,s,s,s,222),s),s)}}
 A.ql.prototype={
 a6(){return new A.G6(B.p)}}
@@ -58596,7 +58598,7 @@ A.akI.prototype={
 $1(a){return a.length!==0},
 $S:38}
 A.dq.prototype={
-rA(a,b){return new A.ax($.aH,this.$ti.i("ax<1>"))},
+rA(a,b){return new A.ax($.aI,this.$ti.i("ax<1>"))},
 pk(a){return this.rA(a,null)},
 hQ(a,b,c,d){var s=b.$1(this.a)
 if(d.i("aB<0>").b(s))return s
@@ -61291,7 +61293,7 @@ n=l.f
 n===$&&A.a()
 m=l.a
 m=A.aCW(m.e,m.f)
-return A.cq(k,A.aI(A.b([s,A.aF(new A.qQ(p,q,j,l.gafl(),new A.GQ(o,new A.CJ(n,l.gafI(),new A.Sx(l.ga9r(),m+1,!0,!0,!0,k),l.d),k),k),1)],r),B.j,B.l,B.k),!1,k,k,!1,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k)}}
+return A.cq(k,A.aH(A.b([s,A.aF(new A.qQ(p,q,j,l.gafl(),new A.GQ(o,new A.CJ(n,l.gafI(),new A.Sx(l.ga9r(),m+1,!0,!0,!0,k),l.d),k),k),1)],r),B.j,B.l,B.k),!1,k,k,!1,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k)}}
 A.avZ.prototype={
 $0(){var s,r,q=this.a,p=q.a.e
 p=A.bh(A.aO(p),A.aN(p)+this.b,1,0,0,0,0,!1)
@@ -61552,7 +61554,7 @@ q.a.toString
 s=Math.max(q.gzZ(),18)
 r=o==null&&!0
 r=r?B.mW:p
-return A.aI(A.b([B.op,A.aF(new A.Bg(B.E2,new A.Sx(q.ga9O(),s,!0,!0,!0,p),B.eN,B.N,!1,o,p,r,!1,p,s,B.aq,B.lR,p,B.a2,p),1),B.op],t.p),B.j,B.l,B.k)}}
+return A.aH(A.b([B.op,A.aF(new A.Bg(B.E2,new A.Sx(q.ga9O(),s,!0,!0,!0,p),B.eN,B.N,!1,o,p,r,!1,p,s,B.aq,B.lR,p,B.a2,p),1),B.op],t.p),B.j,B.l,B.k)}}
 A.azF.prototype={
 $1$1(a,b){var s=a.$1(this.a)
 return s==null?a.$1(this.b):s},
@@ -62007,7 +62009,7 @@ q=A.bh(A.aO(q),A.aN(q),A.bD(q),0,0,0,0,!1)
 if(!A.aZ(q))A.u(A.b5(q))
 p=A.bh(A.aO(p),A.aN(p),A.bD(p),0,0,0,0,!1)
 if(!A.aZ(p))A.u(A.b5(p))
-f=A.l(i,A.Ek(A.aI(A.b([B.m7,new A.Bz(s,new A.an(q,!1),new A.an(p,!1),o,o,n,m,l,k,j,r,!0,i),B.m7],t.p),B.j,B.l,B.k),i,B.MK),B.e,i,i,i,i,f,i,i,B.oz,i,i,i)
+f=A.l(i,A.Ek(A.aH(A.b([B.m7,new A.Bz(s,new A.an(q,!1),new A.an(p,!1),o,o,n,m,l,k,j,r,!0,i),B.m7],t.p),B.j,B.l,B.k),i,B.MK),B.e,i,i,i,i,f,i,i,B.oz,i,i,i)
 if(g==null)g=B.en
 return new A.qU(f,g,h.w)},
 $S:236}
@@ -62017,11 +62019,11 @@ switch(q.d.a){case 0:s=t.p
 r=A.b([q.e],s)
 r.push(A.aUy(q.f.ok,0,null))
 if(b.d>=p)B.b.U(r,A.b([A.aF(q.a.a,1),q.r],s))
-return A.aI(r,B.dz,B.l,B.cp)
+return A.aH(r,B.dz,B.l,B.cp)
 case 1:p=t.p
 s=A.b([q.e],p)
 s.push(new A.Uj(0,q.f.ok,null))
-s.push(new A.kQ(1,B.dG,A.aI(A.b([A.aF(q.a.a,1),q.r],p),B.dz,B.l,B.cp),null))
+s.push(new A.kQ(1,B.dG,A.aH(A.b([A.aF(q.a.a,1),q.r],p),B.dz,B.l,B.cp),null))
 return A.bi(s,B.dz,B.l,B.cp)}},
 $S:237}
 A.a_F.prototype={
@@ -62058,11 +62060,11 @@ switch(m.a){case 0:p=t.p
 m=A.b([A.aF(k,1)],p)
 l=j.x
 if(l!=null)m.push(l)
-return A.aX(A.iY(B.R,i,new A.aw(B.GH,A.aI(A.b([B.AD,n,B.Hp,A.bi(m,B.j,B.l,B.k)],p),B.eD,B.l,B.k),i),B.e,r,0,i,i,i,i,i,B.d9),120,i)
+return A.aX(A.iY(B.R,i,new A.aw(B.GH,A.aH(A.b([B.AD,n,B.Hp,A.bi(m,B.j,B.l,B.k)],p),B.eD,B.l,B.k),i),B.e,r,0,i,i,i,i,i,B.d9),120,i)
 case 1:p=A.b([B.AD,new A.aw(B.eN,n,i),A.aX(i,j.w?16:56,i),A.aF(new A.aw(B.eN,k,i),1)],t.p)
 m=j.x
 if(m!=null)p.push(new A.aw(B.oA,m,i))
-return A.aX(A.iY(B.R,i,A.aI(p,B.eD,B.l,B.k),B.e,r,0,i,i,i,i,i,B.d9),i,152)}}}
+return A.aX(A.iY(B.R,i,A.aH(p,B.eD,B.l,B.k),B.e,r,0,i,i,i,i,i,B.d9),i,152)}}}
 A.azP.prototype={
 $2(a,b){if(!a.a)a.L(0,b)},
 $S:37}
@@ -62257,7 +62259,7 @@ ui(a,b){return B.m}}
 A.a2F.prototype={}
 A.N3.prototype={
 H(a){var s=null,r=A.bP(a,B.bn,t.w).w.r.b+8
-return new A.aw(new A.A(8,r,8,8),new A.iL(new A.N4(this.c.R(0,new A.c(8,r))),A.aX(A.iY(B.R,B.C0,A.aI(this.d,B.j,B.l,B.cp),B.D,s,1,s,s,s,s,s,B.dP),s,222),s),s)}}
+return new A.aw(new A.A(8,r,8,8),new A.iL(new A.N4(this.c.R(0,new A.c(8,r))),A.aX(A.iY(B.R,B.C0,A.aH(this.d,B.j,B.l,B.cp),B.D,s,1,s,s,s,s,s,B.dP),s,222),s),s)}}
 A.uN.prototype={
 H(a){var s=null
 return A.aX(A.Tx(this.d,this.c,A.alx(B.cS,s,s,s,s,B.bk,s,s,B.bk,A.a2(a).ay.a===B.aU?B.h:B.a0,s,B.QW,B.H0,s,B.fp,s,s,s,s)),s,1/0)}}
@@ -62319,7 +62321,7 @@ n.toString
 g.push(new A.kQ(1,B.dG,n,k))
 m.toString
 g.push(m)
-l=A.aJm(A.aI(g,B.dz,B.l,B.cp),k)
+l=A.aJm(A.aH(g,B.dz,B.l,B.cp),k)
 return A.aI4(k,k,s!=null?A.cq(k,l,!1,k,k,!1,!0,k,k,k,s,k,k,!0,k,k,k,k,k,k,k,k,k,!0,k,k,k,k,k,k):l,B.e,k,B.H5,k,k,k)}}
 A.Ap.prototype={}
 A.a7R.prototype={
@@ -62893,13 +62895,13 @@ j=a0.a.dy
 i=r.length
 i=A.b2(i,48,!1,t.i)
 h=A.b([],t.Zt)
-g=$.aH
+g=$.aI
 f=a2.i("ax<jk<1>?>")
 e=a2.i("bA<jk<1>?>")
 d=A.rP(B.cB)
 c=A.b([],t.wi)
 b=$.aD()
-a=$.aH
+a=$.aI
 a0.e=new A.GA(r,B.eN,q,o,m,k,l,48,j,a1,!0,a1,i,"Dismiss",a1,a1,h,A.b6(t.kj),new A.bU(a1,a2.i("bU<ly<jk<1>>>")),new A.bU(a1,t.B),new A.w3(),a1,0,new A.bA(new A.ax(g,f),e),d,c,B.fr,new A.bW(a1,b,t.XR),new A.bA(new A.ax(a,f),e),new A.bA(new A.ax(a,f),e),a2.i("GA<1>"))
 a2=a0.gcW(0)
 if(a2!=null)a2.iV()
@@ -67200,7 +67202,7 @@ m.toString
 q=new A.nc()
 p=a.a
 q=p==null?q:p
-s.b=new A.DN(A.aEe(a.Q,a.as,m,a.d,a.z,a.cy,a.ax,a.c,a.cx,a.ay,a.e,a.y,q,a.f,a.CW,a.r,a.x,a.at,a.w),new A.bA(new A.ax($.aH,t.dH),t.fO),new A.aiB(n,s),t.BL)
+s.b=new A.DN(A.aEe(a.Q,a.as,m,a.d,a.z,a.cy,a.ax,a.c,a.cx,a.ay,a.e,a.y,q,a.f,a.CW,a.r,a.x,a.at,a.w),new A.bA(new A.ax($.aI,t.dH),t.fO),new A.aiB(n,s),t.BL)
 try{n.a4(new A.aiC(n,s))
 n.IW()}catch(o){r=A.at(o)
 throw o}return s.aN()},
@@ -70914,7 +70916,7 @@ s=t.P
 A.aVx(A.aT4(q).ci(0,new A.a4S(r,this,a,q),s),new A.a4T(r),s,t.K)
 s=r.a
 if(s!=null)return s
-s=new A.ax($.aH,t.Lv)
+s=new A.ax($.aI,t.Lv)
 r.b=new A.bA(s,t.h8)
 return s},
 aaw(a,b,c){var s,r,q,p,o
@@ -79633,7 +79635,7 @@ a0z(a){var s=this.id$
 B.b.C(s,a)
 if(s.length===0){s=$.bd()
 s.ch=null
-s.CW=$.aH}},
+s.CW=$.aI}},
 acO(a){var s,r,q,p,o,n,m,l,k=this.id$,j=A.am(k,!0,t.ph)
 for(p=j.length,o=0;o<p;++o){s=j[o]
 try{if(B.b.n(k,s))s.$1(a)}catch(n){r=A.at(n)
@@ -79674,7 +79676,7 @@ return r.ok$},
 EH(a){return this.ut(a,!1)},
 garR(){var s=this
 if(s.R8$==null){if(s.rx$===B.e1)s.lM()
-s.R8$=new A.bA(new A.ax($.aH,t.D4),t.gR)
+s.R8$=new A.bA(new A.ax($.aI,t.D4),t.gR)
 s.p4$.push(new A.aiK(s))}return s.R8$.a},
 gZ6(){return this.ry$},
 UI(a){if(this.ry$===a)return
@@ -79682,8 +79684,8 @@ this.ry$=a
 if(a)this.lM()},
 YE(){var s=$.bd()
 if(s.x==null){s.x=this.gaeh()
-s.y=$.aH}if(s.z==null){s.z=this.gaf0()
-s.Q=$.aH}},
+s.y=$.aI}if(s.z==null){s.z=this.gaf0()
+s.Q=$.aI}},
 KJ(){switch(this.rx$.a){case 0:case 4:this.lM()
 return
 case 1:case 2:case 3:return}},
@@ -79801,7 +79803,7 @@ if(A.f3.prototype.gZ6.call(s)&&s.ar$)return!0
 if($.cb.rx$!==B.e1)return!0
 return!1},
 oH(a){var s,r,q=this
-q.a=new A.to(new A.bA(new A.ax($.aH,t.D4),t.gR))
+q.a=new A.to(new A.bA(new A.ax($.aI,t.D4),t.gR))
 if(!q.b)s=q.e==null
 else s=!1
 if(s)q.e=$.cb.ut(q.gAT(),!1)
@@ -79847,7 +79849,7 @@ this.c=!1
 s=this.b
 if(s!=null)s.me(new A.Fb(a))},
 ayK(a){var s,r,q=this,p=new A.amq(a)
-if(q.b==null){s=q.b=new A.bA(new A.ax($.aH,t.D4),t.gR)
+if(q.b==null){s=q.b=new A.bA(new A.ax($.aI,t.D4),t.gR)
 r=q.c
 if(r!=null)if(r)s.k8(0)
 else s.me(B.Wu)}q.b.a.hQ(0,p,p,t.H)},
@@ -80552,7 +80554,7 @@ return c.i("aB<0>").a(q)}q.a=q.b=null
 r.oa(a,!1).ci(0,b,c).hQ(0,new A.a5N(q,r,a,c),new A.a5O(q,r,a),t.H)
 s=q.a
 if(s!=null)return s
-s=new A.ax($.aH,c.i("ax<0>"))
+s=new A.ax($.aI,c.i("ax<0>"))
 q.b=new A.bA(s,c.i("bA<0>"))
 p.p(0,a,s)
 return q.b.a},
@@ -80728,7 +80730,7 @@ A.ajU.prototype={
 $1(a){var s=$.bd(),r=this.a.cC$
 r===$&&A.a()
 s.ax=r.gat7()
-s.ay=$.aH
+s.ay=$.aI
 B.BP.yO(r.gats())},
 $S:25}
 A.ajT.prototype={
@@ -80750,7 +80752,7 @@ case 4:return A.J(null,r)}})
 return A.K($async$$0,r)},
 $S:4}
 A.aro.prototype={
-EL(a,b,c){var s=new A.ax($.aH,t.gg)
+EL(a,b,c){var s=new A.ax($.aI,t.gg)
 $.bd().UE(b,c,A.aIS(new A.arp(new A.bA(s,t.yB))))
 return s},
 NV(a,b){if(b==null){a=$.a4m().a.h(0,a)
@@ -81477,7 +81479,7 @@ return A.a_(s.a,s.b,s.c,s.d,s.e,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,
 A.DF.prototype={
 gaxW(){var s=this
 if(s.c)return new A.dq(s.a,t.hr)
-if(s.b==null){s.b=new A.bA(new A.ax($.aH,t.X6),t.F0)
+if(s.b==null){s.b=new A.bA(new A.ax($.aI,t.X6),t.F0)
 s.zK()}return s.b.a},
 zK(){var s=0,r=A.L(t.H),q,p=this,o
 var $async$zK=A.M(function(a,b){if(a===1)return A.I(b,r)
@@ -83479,7 +83481,7 @@ hI(){this.a3U()
 $.fu=this
 var s=$.bd()
 s.as=this.gag8()
-s.at=$.aH},
+s.at=$.aI},
 MS(){this.a3W()
 this.GM()}}
 A.Jt.prototype={
@@ -83533,7 +83535,7 @@ $.S4=q
 s=$.bd()
 q.cz$=s.a.a
 s.p2=q.gagR()
-r=$.aH
+r=$.aI
 s.p3=r
 s.p4=q.gagP()
 s.R8=r
@@ -83546,7 +83548,7 @@ s=t.TT
 o.ay$=new A.Wp(null,A.b2C(),null,A.b([],s),A.b([],s),A.b([],s),A.b6(t.I9),A.b6(t.sv))
 s=$.bd()
 s.f=o.gate()
-r=s.r=$.aH
+r=s.r=$.aI
 s.go=o.gatN()
 s.id=r
 s.k3=o.gatl()
@@ -83590,7 +83592,7 @@ l.J$=s
 s.a=l.gaej()
 s=$.bd()
 s.fr=l.gatb()
-s.fx=$.aH
+s.fx=$.aI
 B.io.qp(l.gafU())
 s=new A.MZ(A.P(o,t.qa),B.w1)
 B.w1.qp(s.gaiJ())
@@ -83619,7 +83621,7 @@ q=r.id$
 q.push(s)
 if(q.length===1){q=$.bd()
 q.ch=r.gacN()
-q.CW=$.aH}}try{r=p.a9$
+q.CW=$.aI}}try{r=p.a9$
 if(r!=null)p.J$.api(r)
 p.a5w()
 p.J$.aso()}finally{}r=p.O$=!1
@@ -93214,7 +93216,7 @@ if(A.Ko(a,o,p.r.y9(p).a)){p.eJ(a)
 return A.d5(null,t.H)}o=p.at
 o.toString
 s=new A.Nn(p)
-r=new A.bA(new A.ax($.aH,t.D4),t.gR)
+r=new A.bA(new A.ax($.aI,t.D4),t.gR)
 s.c=r
 o=A.aHm("DrivenScrollActivity",o,p.w)
 o.bh()
@@ -98231,7 +98233,7 @@ s=this.a.transaction(s,r).objectStore(s)
 s.toString
 return s},
 a1U(){var s,r,q,p,o=this.yz(!1)
-if("getAllKeys" in o&&!0){s=new A.ax($.aH,t.Jk)
+if("getAllKeys" in o&&!0){s=new A.ax($.aI,t.Jk)
 r=new A.bA(s,t.dx)
 q=this.yz(!1).getAllKeys(null)
 q.toString
@@ -98241,7 +98243,7 @@ A.lw(q,"error",new A.akS(r,q),!1,p)
 return s}else{s=B.ik.a_M(o,!0)
 return new A.tG(new A.akT(),s,s.$ti.i("tG<dj.T,Y?>")).eN(0)}},
 a2f(){var s,r,q,p,o=this.yz(!1)
-if("getAll" in o&&!0){s=new A.ax($.aH,t.mg)
+if("getAll" in o&&!0){s=new A.ax($.aI,t.mg)
 r=new A.bA(s,t.b5)
 q=o.getAll(null)
 q.toString
@@ -98928,7 +98930,7 @@ case 8:g=a2
 q=b1.i("zJ<0>").a(m.Rs(g,!1,b1))
 s=1
 break
-case 7:l=new A.bA(new A.ax($.aH,t.LR),t.zh)
+case 7:l=new A.bA(new A.ax($.aI,t.LR),t.zh)
 f.p(0,a2,l.a)
 k=null
 p=10
@@ -99228,7 +99230,7 @@ J.aSF(h,b.a,b.b.k(0),!0)
 h.responseType="arraybuffer"
 h.withCredentials=!1
 b.r.ab(0,J.aSv(l))
-k=new A.bA(new A.ax($.aH,t.EW),t.Bx)
+k=new A.bA(new A.ax($.aI,t.EW),t.Bx)
 h=t.fg
 g=t.H
 new A.xR(l,"load",!1,h).gS(0).ci(0,new A.a5v(l,k,b),g)
@@ -99270,7 +99272,7 @@ A.a5w.prototype={
 $1(a){this.a.nD(new A.M9("XMLHttpRequest error."),A.aL2())},
 $S:198}
 A.uj.prototype={
-a0Z(){var s=new A.ax($.aH,t.aP),r=new A.bA(s,t.gI),q=new A.Vi(new A.a5K(r),new Uint8Array(1024))
+a0Z(){var s=new A.ax($.aI,t.aP),r=new A.bA(s,t.gI),q=new A.Vi(new A.a5K(r),new Uint8Array(1024))
 this.hJ(q.gkW(q),!0,q.gwc(q),r.gXC())
 return s}}
 A.a5K.prototype={
@@ -103617,7 +103619,7 @@ h=h.cy
 h===$&&A.a()
 n=A.i0(B.w,0)
 k=A.l(B.fX,A.l(i,A.H(o.c.a,i,B.bI,i,i,l,B.E,i,1.2),B.e,i,i,new A.az(h.z,i,n,i,i,i,B.v),i,i,i,i,i,i,i,i),B.e,i,i,i,i,i,i,i,i,i,i,i)}else k=A.l(i,i,B.e,i,i,i,i,i,i,i,i,i,i,i)
-return new A.ey(new A.LQ(A.l(i,A.l(i,A.aI(A.b([k,j.al5(a)],t.p),B.j,B.l,B.k),B.e,i,i,i,i,i,i,new A.A(s.a,s.b,s.c,s.d),i,i,i,i),B.e,i,i,new A.az(r.b,i,q,i,i,i,B.v),i,i,i,i,i,i,i,i),i),i)},
+return new A.ey(new A.LQ(A.l(i,A.l(i,A.aH(A.b([k,j.al5(a)],t.p),B.j,B.l,B.k),B.e,i,i,i,i,i,i,new A.A(s.a,s.b,s.c,s.d),i,i,i,i),B.e,i,i,new A.az(r.b,i,q,i,i,i,B.v),i,i,i,i,i,i,i,i),i),i)},
 m(){var s=this.d
 s===$&&A.a()
 s=s.e
@@ -112611,13 +112613,13 @@ if(a==null)return p.a.ok
 s=p.a
 r=s.r
 switch(r.a){case 2:s=s.cx
-a=A.aI(A.b([new A.eg(p.zB(r,s),o,o,a,o),p.zk(b)],t.p),B.j,B.l,B.k)
+a=A.aH(A.b([new A.eg(p.zB(r,s),o,o,a,o),p.zk(b)],t.p),B.j,B.l,B.k)
 break
 case 3:s=p.zk(b)
 r=p.a
 q=r.r
 r=r.cx
-a=A.aI(A.b([s,new A.eg(p.zB(q,r),o,o,a,o)],t.p),B.j,B.l,B.k)
+a=A.aH(A.b([s,new A.eg(p.zB(q,r),o,o,a,o)],t.p),B.j,B.l,B.k)
 break
 case 0:s=s.cx
 a=A.bi(A.b([new A.eg(p.zB(r,s),o,o,a,o),p.zk(b)],t.p),B.j,B.l,B.k)
@@ -112673,12 +112675,12 @@ o.toString
 o=A.k4(o).nG(!1)
 n=l.a.CW===B.aa?B.aa:B.N
 p.push(A.t1(o,A.dp(r,l.f,k,B.lu,n)))}else{o=A.aF(r,1)
-p.push(o)}r=A.aI(p,B.j,s,B.k)}else{o=s.w
+p.push(o)}r=A.aH(p,B.j,s,B.k)}else{o=s.w
 if(o===B.hK)s=A.dp(r,k,k,k,s.CW)
 else if(o===B.hL){o=A.dp(r,k,k,k,s.ch===B.aa?B.N:B.aa)
 s=o}else if(o===B.hM){o=A.dp(r,k,k,B.lu,s.ch===B.aa?B.N:B.aa)
 s=o}else s=r
-r=A.aI(A.b([p,new A.kQ(1,B.dG,s,k)],t.p),B.j,B.d8,B.k)}}s=l.a
+r=A.aH(A.b([p,new A.kQ(1,B.dG,s,k)],t.p),B.j,B.d8,B.k)}}s=l.a
 p=s.f
 if(p!=null){o=s.e
 r=A.uL(r,new A.az(o,k,A.i0(p.a,p.b),k,k,k,B.v),B.cY)}p=s.cy
@@ -117924,7 +117926,7 @@ B.ZJ=new A.A(4,4,4,5)
 B.ck=new A.A(50,0,50,0)
 B.H6=new A.A(6,6,6,6)
 B.oB=new A.A(70,0,70,0)
-B.H7=new A.A(70,10,70,0)
+B.H7=new A.A(70,5,70,0)
 B.hm=new A.A(8,0,8,0)
 B.H8=new A.A(8,2,8,5)
 B.H9=new A.A(8,4,8,4)
@@ -120528,7 +120530,7 @@ $.yT=null
 $.Kd=null
 $.Ke=null
 $.aFi=!1
-$.aH=B.aQ
+$.aI=B.aQ
 $.aLS=null
 $.aLT=null
 $.aLU=null
